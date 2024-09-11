@@ -8,7 +8,7 @@
 ############################
 # --- Required options --- #
 ############################
-baseurl: https://michalferber.me
+baseurl: /
 
 # Name of website
 title: Michal Ferber
