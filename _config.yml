@@ -8,6 +8,7 @@
 ############################
 # --- Required options --- #
 ############################
+baseurl: https://michalferber.me
 
 # Name of website
 title: Michal Ferber
@@ -24,7 +25,7 @@ navbar-links:
   Projects:
     - Ari.Importer: "https://github.com/AriIntegration/Ari.Importer"
     - Braintree Payment Prototype: "https://github.com/AriIntegration/Braintree-Payment-Prototype"
-    - GSA Manager: "https://beautifuljekyll.com"
+    - GSA Manager: "https://github.com/AriIntegration/gsamanager.org"
     - IP Cow: "https://github.com/AriIntegration/IP-Cow"
     - ModMan: "https://github.com/MichalAFerber/ModMan"
     - SilentApp: "https://github.com/AriIntegration/SilentApp"
