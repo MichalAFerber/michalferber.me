@@ -21,8 +21,8 @@ Over my career in IT spanning more than 27+ years, I’ve collected many IT cert
 
 ## Publications & Public Speaking
 
-- [Vesta Alert Notification System](/posts/2019-10-24-vesta-alert-notification-system)
-- [Enhancing healthcare with use of emergency notification technology](/posts/2018-05-09-enhancing-healthcare-with-use-of-emergency-notification-technology)
-- [How Emergency Notification Is Used for Healthcare](/posts/2016-11-30-how-emergency-notification-is-used-for-healthcare)
-- [It’s all about Effective, Efficient Communications: That’s Just the Bottom Line](/posts/2014-09-05-its-all-about-effective-efficient-communication-thats-just-the-bottom-line)
-- [Integrating Emergency Notification into Your Everyday Communications Strategy](/posts/2010-03-21-integrating-emergency-notification-into-your-everyday-communications-strategy)
+- [Vesta Alert Notification System](/2019-10-24-vesta-alert-notification-system)
+- [Enhancing healthcare with use of emergency notification technology](/2018-05-09-enhancing-healthcare-with-use-of-emergency-notification-technology)
+- [How Emergency Notification Is Used for Healthcare](/2016-11-30-how-emergency-notification-is-used-for-healthcare)
+- [It’s all about Effective, Efficient Communications: That’s Just the Bottom Line](/2014-09-05-its-all-about-effective-efficient-communication-thats-just-the-bottom-line)
+- [Integrating Emergency Notification into Your Everyday Communications Strategy](/2010-03-21-integrating-emergency-notification-into-your-everyday-communications-strategy)
