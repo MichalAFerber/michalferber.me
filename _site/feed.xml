@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>Michal Ferber</title>
+    
+    
+    <description>This website is a virtual proof that I&apos;m awesome</description>
+    
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>
+          
+          You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when...
+        </description>
+        <pubDate>Tue, 10 Sep 2024 14:44:58 -0400</pubDate>
+        <link>http://localhost:4000/2024-09-10-welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024-09-10-welcome-to-jekyll/</guid>
+      </item>
+    
+      <item>
+        <title>FTX</title>
+        <description>
+          crypto web of deceit and corruption - 
+          FTX Trading Ltd., commonly known as FTX (short for “Futures Exchange”) FTX is a bankrupt company that formerly operated a cryptocurrency exchange and crypto hedge fund. The exchange was founded in 2019 by Sam Bankman-Fried and Gary Wang and, at its peak in July 2021, had over one million users...
+        </description>
+        <pubDate>Sun, 26 Feb 2023 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2023-02-26-FTX-Crypto-Web-Of-Deceit/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-02-26-FTX-Crypto-Web-Of-Deceit/</guid>
+      </item>
+    
+      <item>
+        <title>President Donald J. Trump</title>
+        <description>
+          A Nation In Decline Speech - 
+          Given on: August 9, 2022 We are a nation in decline. We are a failing nation. We are a nation that has the highest inflation in over 40 years, where the stock market just finished the worst first half of a year in more than five decades. We’re a nation...
+        </description>
+        <pubDate>Tue, 15 Nov 2022 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2022-11-15-DJT-A-Nation-In-Decline-Speech/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022-11-15-DJT-A-Nation-In-Decline-Speech/</guid>
+      </item>
+    
+      <item>
+        <title>The Elon Musk-Twitter Debacle</title>
+        <description>
+          What else has Elon Musk &apos;Chief Twit&apos; said? - 
+          Elon speaking of WW111 here https://t.me/thebreakdown1718/6070
+
+Elon on speaking on ‘Aliens’ here https://t.me/thebreakdown1718/6061
+
+Read about the whole saga here https://www.vox.com/recode/23423341/elon-musk-buy-twitter-deal-social-media
+
+
+
+
+
+        </description>
+        <pubDate>Thu, 27 Oct 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2022-10-27-the-elon-musk-twitter-debacle/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022-10-27-the-elon-musk-twitter-debacle/</guid>
+      </item>
+    
+      <item>
+        <title>The new Admin On-Demand feature in the Mosyle MDM</title>
+        <description>
+          A How To Guide - 
+          A new feature in the Mosyle MDM is the ability to allow users to have admin permission only when they need it. In the past, you had to use a static password that the user knew or rotate the password and then give the password when the user asks for...
+        </description>
+        <pubDate>Wed, 26 Oct 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2022-10-26-how-to-the-new-admin-on-demand-feature-in-the-mosyle-mdm/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022-10-26-how-to-the-new-admin-on-demand-feature-in-the-mosyle-mdm/</guid>
+      </item>
+    
+      <item>
+        <title>Jesus 101</title>
+        <description>
+          Sermon Notes - 
+          In today’s world, we are overwhelmed with information; the internet (social media), TV, radio, and the many apps we have on our phones all have both good (correct) and bad (incorrect) information. The news media or as President Trump says mainstream media (fake news) have become the editors that censure...
+        </description>
+        <pubDate>Sat, 09 Jan 2021 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2021-01-09-jesus-101/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-01-09-jesus-101/</guid>
+      </item>
+    
+      <item>
+        <title>Modman Documentation</title>
+        <description>
+          
+          
+
+
+        </description>
+        <pubDate>Thu, 23 Apr 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2020-04-23-modman-documentation/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-04-23-modman-documentation/</guid>
+      </item>
+    
+      <item>
+        <title>Sample blog post to learn markdown tips</title>
+        <description>
+          There&apos;s lots to learn! - 
+          This is a demo post to show you how to write blog posts with markdown. I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/tables/etc.I also encourage you to look at the code that...
+        </description>
+        <pubDate>Fri, 28 Feb 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2020-02-28-sample-markdown/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-02-28-sample-markdown/</guid>
+      </item>
+    
+      <item>
+        <title>Flake it till you make it</title>
+        <description>
+          Excerpt from Soulshaping by Jeff Brown - 
+          Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who...
+        </description>
+        <pubDate>Wed, 26 Feb 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2020-02-26-flake-it-till-you-make-it/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-02-26-flake-it-till-you-make-it/</guid>
+      </item>
+    
+      <item>
+        <title>September 23 – Part 1</title>
+        <description>
+          A personal story - 
+          My personal life has taken a lot of twists and turns. And as much as I have tried to control everything and be perfect in everything, I have found out the hard way that just isn’t how life works. I have also found that it’s the exact opposite of following...
+        </description>
+        <pubDate>Thu, 26 Dec 2019 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2019-12-26-september-23-part-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-12-26-september-23-part-1/</guid>
+      </item>
+    
+      <item>
+        <title>Stars We Lost in 2019</title>
+        <description>
+          Year in review - 
+          I read an article today on Fox News entitled “Stars We Lost in 2019”. It listed 157 celebrities that died in 2019. Some were household names like Robert Forster who played Bud Baxter on Last Man Standing. Another was legendary wrestling announcer “Mean” Gene Okerlund who died at the age...
+        </description>
+        <pubDate>Mon, 23 Dec 2019 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2019-12-23-stars-we-lost-in-2019/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-12-23-stars-we-lost-in-2019/</guid>
+      </item>
+    
+      <item>
+        <title>Vesta Alert Notification System</title>
+        <description>
+          South Carolina ARC GIS conference - 
+          I had the opportunity to present and share my thoughts on emergency communication and how GIS can play a role at the South Carolina ARC GIS conference.
+
+
+
+
+
+
+
+        </description>
+        <pubDate>Thu, 24 Oct 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2019-10-24-vesta-alert-notification-system/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-10-24-vesta-alert-notification-system/</guid>
+      </item>
+    
+      <item>
+        <title>Enhancing healthcare with use of emergency notification technology</title>
+        <description>
+          A case study on McLeod Health emergency notification - 
+          
+
+
+
+
+
+        </description>
+        <pubDate>Wed, 09 May 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2018-05-09-enhancing-healthcare-with-use-of-emergency-notification-technology/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-05-09-enhancing-healthcare-with-use-of-emergency-notification-technology/</guid>
+      </item>
+    
+      <item>
+        <title>Do you accept or reject the call?</title>
+        <description>
+          Sermon Notes - 
+          This is a message for all of us as we all have a call on our life that God has placed on us. But this is also a message to all leadership. Often the call on someone’s life doesn’t look right. Doesn’t look like what we want. God’s ways are...
+        </description>
+        <pubDate>Thu, 25 Jan 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2018-01-25-do-you-accept-or-reject-the-call/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-01-25-do-you-accept-or-reject-the-call/</guid>
+      </item>
+    
+      <item>
+        <title>How emergency notification is used for healthcare.</title>
+        <description>
+          A case study on McLeod Health emergency notification - 
+          
+
+
+
+
+
+        </description>
+        <pubDate>Wed, 30 Nov 2016 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2016-11-30-how-emergency-notification-is-used-for-healthcare/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016-11-30-how-emergency-notification-is-used-for-healthcare/</guid>
+      </item>
+    
+      <item>
+        <title>An open letter to Christians everywhere (including me)</title>
+        <description>
+          From the heart - 
+          I just watched America’s Got Talent and saw what I hope is a career rebirth of another sinner saved by grace: Nikki Leonti Edgar (Wikipedia). My heart was broken listening to her story and realizing that I listened to her singing Christian music as a kid than hearing that she...
+        </description>
+        <pubDate>Sat, 16 Jul 2016 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2016-07-16-an-open-letter-to-christians-everywhere-including-me/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016-07-16-an-open-letter-to-christians-everywhere-including-me/</guid>
+      </item>
+    
+      <item>
+        <title>It’s all about Effective, Efficient Communication</title>
+        <description>
+          That’s Just the Bottom Line - 
+          Interview I had about communicating with communication technology solutions.
+
+
+
+
+
+
+
+        </description>
+        <pubDate>Fri, 05 Sep 2014 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2014-09-05-its-all-about-effective-efficient-communication-thats-just-the-bottom-line/</link>
+        <guid isPermaLink="true">http://localhost:4000/2014-09-05-its-all-about-effective-efficient-communication-thats-just-the-bottom-line/</guid>
+      </item>
+    
+      <item>
+        <title>Holy Week Timeline</title>
+        <description>
+          Death, Burial and Resurrection of Jesus - 
+          
+
+        </description>
+        <pubDate>Sat, 31 Mar 2012 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2012-03-31-holy-week-timeline/</link>
+        <guid isPermaLink="true">http://localhost:4000/2012-03-31-holy-week-timeline/</guid>
+      </item>
+    
+      <item>
+        <title>Power of Prayer</title>
+        <description>
+          Sermon Notes - 
+          Prayer is an untapped resource that we don’t use as often as we should. 1 Thessalonians 5:1-28 5:17 Pray without ceasing 5:16 Rejoice always I don’t believe God meant for us to pray a prayer that never stops. But I do believe He expects us to always have Him in...
+        </description>
+        <pubDate>Sun, 10 Jul 2011 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2011-07-10-power-of-prayer/</link>
+        <guid isPermaLink="true">http://localhost:4000/2011-07-10-power-of-prayer/</guid>
+      </item>
+    
+      <item>
+        <title>The 5 W’s of Worship</title>
+        <description>
+          Sermon Notes - 
+          John 4:7-26 The who, what, where, when, and why of worship. Psalms is full of worship; I believe David had a true heart of worship. The biggest book in the bible is David’s songs and prayers; where he is crying out to God; sometimes victorious other times defeated by his...
+        </description>
+        <pubDate>Sun, 12 Jun 2011 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2011-06-12-the-5-w-s-of-worship/</link>
+        <guid isPermaLink="true">http://localhost:4000/2011-06-12-the-5-w-s-of-worship/</guid>
+      </item>
+    
+  </channel>
+</rss>
