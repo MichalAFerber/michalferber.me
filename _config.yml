@@ -23,7 +23,7 @@ author: TechGuyWithABeard
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  About Me: "/about"
   Projects:
     - Ari.Importer: "https://github.com/AriIntegration/Ari.Importer"
     - Braintree Payment Prototype: "https://github.com/AriIntegration/Braintree-Payment-Prototype"
