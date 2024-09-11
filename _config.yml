@@ -8,7 +8,9 @@
 ############################
 # --- Required options --- #
 ############################
-baseurl: /
+url: "https://michalferber.me"  # the base hostname & protocol for your site
+baseurl: ""  # Leave empty if your site is at the root
+
 
 # Name of website
 title: Michal Ferber
