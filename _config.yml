@@ -162,6 +162,9 @@ paginate: 5
 kramdown:
   input: GFM
 
+redirect_from:
+  json: false
+  
 # Default YAML values (more information on Jekyll's site)
 
 # Build settings
