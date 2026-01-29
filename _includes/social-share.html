@@ -1,9 +1,9 @@
 <!-- Check if any share-links are active -->
 {% assign any-share-links = false %}
 {% for links in site.share-links-active %}
-  {% if links[1] == true %}
-    {% assign any-share-links = true %}
-  {% endif %}
+{% if links[1] == true %}
+{% assign any-share-links = true %}
+{% endif %}
 {% endfor %}
 
 {% if any-share-links %}
@@ -19,29 +19,32 @@
       <tr style="width: 100%; display: table-row;">
         <td>
           <ul class="list-inline text-center" style="list-style: none; width: 100%; display: block;">
-                          {% if site.share-links-active.twitter %}
+            {% if site.share-links-active.twitter %}
             <li class="list-inline-item" style="display: inline-block; margin: 5px;">
-              <a href="https://twitter.com/intent/tweet?text={{ page.title | strip_html | url_encode }}&url={{ page.url | absolute_url | url_encode }}" target="_blank" 
-              title="Share on X (Twitter)">
-                <img src="{{ '/assets/img/twitter.svg' | relative_url }}" alt="Share on X (Twitter) " width="32" height="32" />
+              <a href="https://twitter.com/intent/tweet?text={{ page.title | strip_html | url_encode }}&url={{ page.url | absolute_url | url_encode }}"
+                target="_blank" title="Share on X (Twitter)">
+                <img src="{{ '/assets/img/twitter.svg' | relative_url }}" alt="Share on X (Twitter) " width="32"
+                  height="32" />
               </a>
             </li>
             {% endif %}
 
             {% if site.share-links-active.facebook %}
             <li class="list-inline-item" style="display: inline-block; margin: 5px;">
-              <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}" target="_blank"
-                title="Share on Facebook">
-                <img src="{{ '/assets/img/facebook.svg' | relative_url }}" alt="Share on Facebook" width="32" height="32" />
+              <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}"
+                target="_blank" title="Share on Facebook">
+                <img src="{{ '/assets/img/facebook.svg' | relative_url }}" alt="Share on Facebook" width="32"
+                  height="32" />
               </a>
             </li>
             {% endif %}
 
             {% if site.share-links-active.linkedin %}
             <li class="list-inline-item" style="display: inline-block; margin: 5px;">
-              <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}" target="_blank"
-                title="Share on LinkedIn">
-                <img src="{{ '/assets/img/linkedin.svg' | relative_url }}" alt="Share on LinkedIn" width="32" height="32" />
+              <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}"
+                target="_blank" title="Share on LinkedIn">
+                <img src="{{ '/assets/img/linkedin.svg' | relative_url }}" alt="Share on LinkedIn" width="32"
+                  height="32" />
               </a>
             </li>
             {% endif %}

@@ -1,7 +1,7 @@
 {% if site.social-network-links %}
 <ul class="list-inline text-center footer-links">
 
-{%- for network in site.social-network-links -%}
+  {%- for network in site.social-network-links -%}
 
   {%- if network[0] == "email" -%}
   <li class="list-inline-item px-1">
@@ -27,7 +27,7 @@
   </li>
   {%- endif -%}
 
-{%- endfor -%}
+  {%- endfor -%}
 
 </ul>
 {% endif %}

@@ -8,15 +8,19 @@ List element using table styling with full-row clickability
   .clickable-row {
     transition: background-color 0.2s ease;
   }
+
   .clickable-row:hover {
-    background-color: rgba(0, 0, 0, 0.5); /* Light grey hover - adjust for dark mode if needed */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Light grey hover - adjust for dark mode if needed */
   }
+
   /* Makes the link fill the entire cell */
   .full-row-link {
     display: block;
     width: 100%;
     height: 100%;
-    padding: 12px 15px; /* Adjust padding to your liking */
+    padding: 12px 15px;
+    /* Adjust padding to your liking */
   }
 </style>
 
@@ -26,25 +30,26 @@ List element using table styling with full-row clickability
       {%- for item in items -%}
       <tr class="clickable-row" style="width: 100%; display: table-row; border-bottom: 1px solid rgba(0,0,0,0.1);">
         <td style="padding: 0;"> {%- if include.type == 'toc' -%}
-            <a href="#{{ item | strip | slugify }}" class="full-row-link">
-              {{ item | strip }}
-            </a>
+          <a href="#{{ item | strip | slugify }}" class="full-row-link">
+            {{ item | strip }}
+          </a>
           {%- else -%}
-            {%- assign parts = item | split: ',' -%}
-            {%- assign label = parts[0] | strip -%}
-            {%- assign url_raw = parts[1] | default: '#' | strip -%}
-            
-            {%- if url_raw contains '://' or url_raw contains 'mailto:' -%}
-              {%- assign url = url_raw -%}
-              {%- assign ext = true -%}
-            {%- else -%}
-              {%- assign url = url_raw | relative_url -%}
-              {%- assign ext = false -%}
-            {%- endif -%}
-            
-            <a href="{{ url }}" class="full-row-link" {%- if ext %} target="_blank" rel="noopener noreferrer" {%- endif -%}>
-              {{ label }}
-            </a>
+          {%- assign parts = item | split: ',' -%}
+          {%- assign label = parts[0] | strip -%}
+          {%- assign url_raw = parts[1] | default: '#' | strip -%}
+
+          {%- if url_raw contains '://' or url_raw contains 'mailto:' -%}
+          {%- assign url = url_raw -%}
+          {%- assign ext = true -%}
+          {%- else -%}
+          {%- assign url = url_raw | relative_url -%}
+          {%- assign ext = false -%}
+          {%- endif -%}
+
+          <a href="{{ url }}" class="full-row-link" {%- if ext %} target="_blank" rel="noopener noreferrer" {%- endif
+            -%}>
+            {{ label }}
+          </a>
           {%- endif -%}
         </td>
       </tr>

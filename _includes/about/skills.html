@@ -1,9 +1,6 @@
 <div class="col-lg">
-
   <h3 class="mb-3" style="font-size: 1.25rem;">{{ include.title }}</h3>
-
   {% for skill in include.source %}
-
   <div class="row justify-content-between align-items-center">
     <div class="col-10">
       <p class="mb-1">{{ skill.name }}</p>
@@ -12,15 +9,12 @@
       <p class="mb-1 text-muted" style="white-space: nowrap;">{{ skill.percentage }}%</p>
     </div>
   </div>
-
   <div class="progress mb-4 bg-themed" style="height: 8px;">
     <div class="progress-bar bg-{{ skill.color | default: 'primary' }} wow animate__animated animate__slideInLeft"
-      data-wow-delay="{{ forloop.index | divided_by: 20.0 }}" role="progressbar" 
-      style="--width: {{ skill.percentage }}%; width: var(--width);"
-      aria-valuenow="{{ skill.percentage }}" aria-valuemin="0" aria-valuemax="100">
+      data-wow-delay="{{ forloop.index | divided_by: 20.0 }}" role="progressbar"
+      style="--width: {{ skill.percentage }}%; width: var(--width);" aria-valuenow="{{ skill.percentage }}"
+      aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
-
   {% endfor %}
-
 </div>
