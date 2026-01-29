@@ -1,6 +1,6 @@
 ---
 title: Building a Redundant Unbound DNS Setup in My Home Lab
-description: Learn how I built a production-ready, redundant DNS infrastructure for my home lab using Unbound on two Raspberry Pi 4 servers. Complete guide covering recursive DNS, local zone management, automated configuration sync, security hardening, and health monitoring. Includes troubleshooting tips and all scripts.
+description: Build a redundant Unbound DNS setup on Raspberry Pi with automated config sync, security hardening, and health monitoring.
 tags:
   - DNS
   - unbound
@@ -18,6 +18,7 @@ tags:
 comments: true
 style: fill
 color: primary
+thumbnail-img: /assets/img/unbound_logo.avif
 ---
 
 ![Website Code]({{ "/assets/img/unbound_logo.avif" | relative_url | absolute_url }})
@@ -628,4 +629,4 @@ With this setup, I've got redundant, secure, and self-maintaining resolution —
 
 ---
 
-*Want to replicate this setup? The full configuration and scripts are available on my [GitHub](https://github.com/MichalAFerber/unbound-homelab). Questions or suggestions?
+Want to replicate this setup? The full configuration and scripts are available on my [GitHub](https://github.com/MichalAFerber/unbound-homelab). Questions or suggestions?
