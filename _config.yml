@@ -128,7 +128,7 @@ site-css:
   - "/assets/css/prism-toolbar.css"
   - "/assets/css/prism-line-numbers.css"
   - "/assets/css/dark-mode.min.css"
-  - "/assets/css/custom.css"
+  - "/assets/css/custom.min.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
 site-js:
@@ -138,8 +138,8 @@ site-js:
   - "/assets/js/prism-line-numbers.js"
   - "/assets/js/prism-autoloader.js"
   - "/assets/js/prism-custom.js"
-  - "/assets/js/external-links.js"
-  - "/assets/js/scroll-to-top.js"
+  - "/assets/js/external-links.min.js"
+  - "/assets/js/scroll-to-top.min.js"
 
 #################################
 # --- Web Analytics Section --- #
@@ -208,5 +208,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-redirect-from
+
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

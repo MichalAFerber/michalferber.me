@@ -1,0 +1,13 @@
+{
+  "name": "michalferber-me",
+  "version": "1.0.0",
+  "scripts": {
+    "minify:css": "cleancss -o assets/css/beautifuljekyll.min.css assets/css/beautifuljekyll.css && cleancss -o assets/css/custom.min.css assets/css/custom.css && cleancss -o assets/css/bootstrap-social.min.css assets/css/bootstrap-social.css",
+    "minify:js": "uglifyjs assets/js/beautifuljekyll.js -c -m -o assets/js/beautifuljekyll.min.js && uglifyjs assets/js/external-links.js -c -m -o assets/js/external-links.min.js && uglifyjs assets/js/scroll-to-top.js -c -m -o assets/js/scroll-to-top.min.js",
+    "minify:all": "npm run minify:css && npm run minify:js"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.17.4",
+    "clean-css-cli": "^5.6.2"
+  }
+}
