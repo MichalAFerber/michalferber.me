@@ -134,3 +134,7 @@ hr {
     width: 20px;
     height: 20px;
 }
+
+.blog-tags a {
+    margin: 0 0 0.5rem !important;
+}

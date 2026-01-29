@@ -2,6 +2,8 @@
 
 This is the personal website and blog of Michal Ferber, built with Jekyll and based on the [Beautiful Jekyll](https://beautifuljekyll.com) theme. It hosts my blog posts, professional timeline, skills, and portfolio.
 
+**Latest Updates**: Timeline updated, CSS styling improvements for blog tags, and minified assets regenerated.
+
 ## Key Features
 
 - **Responsive Design**: Mobile-friendly layout using Beautiful Jekyll.
