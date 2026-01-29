@@ -1,0 +1,20 @@
+{
+  "name": "Michal Ferber",
+  "short_name": "Ferber",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/assets/img/avatar-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/img/michalferber_logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

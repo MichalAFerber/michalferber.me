@@ -1,0 +1,106 @@
+{%- comment -%}
+Unified video embed (Bootstrap 5 + ratio) with plain Liquid conditionals.
+
+Params:
+- provider: youtube | vimeo | rumble | dailymotion (default: youtube)
+- id: provider-specific ID (preferred)
+- url: share URL (optional helper for ID extraction, not for Rumble)
+- embed_src: full iframe src (overrides everything)
+- ratio: BS5 ratio class (default: ratio-16x9)
+- title: iframe title (default: "Embedded video")
+- autoplay, muted, loop: "true"/true to enable
+- controls: "false"/false to hide controls (where supported)
+- playsinline: default true (YouTube)
+- privacy: youtube-nocookie for YT if truthy; Vimeo always sends dnt=1
+- start: start time in seconds (Vimeo uses #t=Ss)
+- wow: WOW/Animate classes, e.g. "wow fadeInUp"
+{%- endcomment -%}
+
+{%- assign provider = include.provider | default: 'youtube' | downcase -%}
+{%- assign ratio = include.ratio | default: 'ratio-16x9' -%}
+{%- assign title = include.title | default: 'Embedded video' -%}
+{%- assign wow_class = include.wow | default: '' -%}
+
+{%- comment -%} Normalize common flags that might arrive as strings {%- endcomment -%}
+{%- assign autoplay_on = false -%}{% if include.autoplay and include.autoplay != 'false' %}{% assign autoplay_on = true
+%}{% endif -%}
+{%- assign muted_on = false -%}{% if include.muted and include.muted != 'false' %}{% assign muted_on = true %}{% endif
+-%}
+{%- assign loop_on = false -%}{% if include.loop and include.loop != 'false' %}{% assign loop_on = true %}{% endif -%}
+{%- assign controls_off = false -%}{% if include.controls == false or include.controls == 'false' %}{% assign
+controls_off = true %}{% endif -%}
+{%- assign playsinline_on = true -%}{% if include.playsinline == false or include.playsinline == 'false' %}{% assign
+playsinline_on = false %}{% endif -%}
+{%- assign privacy_on = false -%}{% if include.privacy and include.privacy != 'false' %}{% assign privacy_on = true %}{%
+endif -%}
+
+{%- assign embed_src = include.embed_src | default: '' -%}
+{%- if embed_src == '' -%}
+{%- assign id = include.id | default: '' -%}
+
+{%- if id == '' and include.url -%}
+{%- assign u = include.url -%}
+{%- if provider == 'youtube' -%}
+{%- if u contains 'youtu.be/' -%}
+{%- assign id = u | split:'youtu.be/' | last | split:'?' | first -%}
+{%- elsif u contains 'watch?v=' -%}
+{%- assign id = u | split:'watch?v=' | last | split:'&' | first -%}
+{%- elsif u contains '/embed/' -%}
+{%- assign id = u | split:'/embed/' | last | split:'?' | first -%}
+{%- endif -%}
+{%- elsif provider == 'vimeo' -%}
+{%- assign id = u | split:'vimeo.com/' | last | split:'/' | first | split:'?' | first -%}
+{%- elsif provider == 'dailymotion' -%}
+{%- if u contains 'dai.ly/' -%}
+{%- assign id = u | split:'dai.ly/' | last | split:'?' | first -%}
+{%- elsif u contains '/video/' -%}
+{%- assign id = u | split:'/video/' | last | split:'_' | first | split:'?' | first -%}
+{%- endif -%}
+{%- elsif provider == 'rumble' -%}
+{%- if u contains '/embed/' -%}
+{%- assign embed_src = u -%}
+{%- endif -%}
+{%- endif -%}
+{%- endif -%}
+
+{%- if embed_src == '' -%}
+{%- assign qs = '' -%}
+{%- if autoplay_on %}{% assign qs = qs | append: '&autoplay=1' %}{% endif -%}
+{%- if muted_on %}{% assign qs = qs | append: '&mute=1' %}{% endif -%}
+{%- if loop_on %}{% assign qs = qs | append: '&loop=1' %}{% endif -%}
+{%- if controls_off %}{% assign qs = qs | append: '&controls=0' %}{% endif -%}
+{%- if include.start %}{% assign qs = qs | append: '&start=' | append: include.start %}{% endif -%}
+
+{%- if provider == 'youtube' -%}
+{%- if playsinline_on %}{% assign qs = qs | append: '&playsinline=1' %}{% endif -%}
+{%- comment -%} modestbranding & rel are common asks with sane defaults {%- endcomment -%}
+{%- assign qs = qs | append: '&modestbranding=1&rel=0' -%}
+{%- if qs != '' %}{% assign qs = qs | replace_first: '&','?' %}{% endif -%}
+{%- assign yt_host = 'https://www.youtube.com' -%}
+{%- if privacy_on %}{% assign yt_host = 'https://www.youtube-nocookie.com' %}{% endif -%}
+{%- assign embed_src = yt_host | append: '/embed/' | append: id | append: qs -%}
+
+{%- elsif provider == 'vimeo' -%}
+{%- assign qs = qs | append: '&dnt=1' -%}
+{%- if qs != '' %}{% assign qs = qs | replace_first: '&','?' %}{% endif -%}
+{%- assign tfrag = '' -%}
+{%- if include.start %}{% assign tfrag = '#t=' | append: include.start | append: 's' %}{% endif -%}
+{%- assign embed_src = 'https://player.vimeo.com/video/' | append: id | append: qs | append: tfrag -%}
+
+{%- elsif provider == 'dailymotion' -%}
+{%- if qs != '' %}{% assign qs = qs | replace_first: '&','?' %}{% endif -%}
+{%- assign embed_src = 'https://www.dailymotion.com/embed/video/' | append: id | append: qs -%}
+
+{%- elsif provider == 'rumble' -%}
+{%- if qs != '' %}{% assign qs = qs | replace_first: '&','?' %}{% endif -%}
+{%- assign embed_src = 'https://rumble.com/embed/' | append: id | append: '/' | append: qs -%}
+{%- endif -%}
+{%- endif -%}
+{%- endif -%}
+
+<div class="video ratio {{ ratio }} my-3 {{ wow_class }}">
+  <iframe class="w-100 h-100 rounded" src="{{ embed_src }}" title="{{ title }}"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+  </iframe>
+</div>

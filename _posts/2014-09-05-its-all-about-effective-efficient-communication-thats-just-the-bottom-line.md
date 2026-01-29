@@ -1,0 +1,17 @@
+---
+layout: post
+date: 2014-09-05 00:00:00 +0000
+title: It’s all about Effective, Efficient Communication
+subtitle: That’s Just the Bottom Line
+tags: [Emergency Notification, Emergency Communications]
+comments: true
+style: fill
+color: danger
+thumbnail-img: /assets/img/mcleod-health-pavilion-bldg-2.jpg
+---
+
+![McLeod Health]({{ "/assets/img/mcleod-health-pavilion-bldg-2.jpg" | relative_url | absolute_url }})
+
+Interview I had about communicating with communication technology solutions.
+
+{% include elements/pdf.html id='2014-09-05_Cassidian-Newsletter.pdf' %}  

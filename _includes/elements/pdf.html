@@ -1,0 +1,115 @@
+{% comment %}
+PDF.js Viewer - FOSS alternative to Adobe PDF Embed
+Params:
+- id: filename of the PDF in /assets/docs/
+- height: optional height (default: 780px)
+{% endcomment %}
+
+{% assign unique_id = 'pdf-viewer-' | append: include.id | slugify %}
+{% assign pdf_url = '/assets/docs/' | append: include.id | relative_url %}
+{% assign viewer_height = include.height | default: '780px' %}
+
+<div class="pdf-viewer-container" style="margin: 20px 0;">
+  <div class="pdf-viewer-toolbar" style="background-color: rgba(68, 67, 77, 0.8); padding: 10px; border-radius: 4px 4px 0 0; display: flex; justify-content: space-between; align-items: center;">
+    <div class="pdf-controls" style="display: flex; gap: 10px; align-items: center;">
+      <button id="{{ unique_id }}-prev" class="pdf-btn" style="padding: 5px 10px; background: #56b4fc; border: none; border-radius: 4px; color: #27262b; cursor: pointer; font-weight: 600;">Previous</button>
+      <span id="{{ unique_id }}-page-num" style="color: #e6e1e8; min-width: 100px; text-align: center;">Page: 1 / 1</span>
+      <button id="{{ unique_id }}-next" class="pdf-btn" style="padding: 5px 10px; background: #56b4fc; border: none; border-radius: 4px; color: #27262b; cursor: pointer; font-weight: 600;">Next</button>
+    </div>
+    <a href="{{ pdf_url | absolute_url }}" download="{{ include.id }}" class="pdf-btn" style="padding: 5px 15px; background: #56b4fc; border: none; border-radius: 4px; color: #27262b; text-decoration: none; font-weight: 600;">Download PDF</a>
+  </div>
+  <canvas id="{{ unique_id }}" style="width: 100%; height: {{ viewer_height }}; border: 1px solid #44434d; border-top: none; background: #27262b; display: block;"></canvas>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+(function() {
+  const url = '{{ pdf_url | absolute_url }}';
+  const canvasId = '{{ unique_id }}';
+  const canvas = document.getElementById(canvasId);
+  const ctx = canvas.getContext('2d');
+
+  let pdfDoc = null;
+  let pageNum = 1;
+  let pageRendering = false;
+  let pageNumPending = null;
+  const scale = 1.5;
+
+  // Set PDF.js worker
+  pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+  function renderPage(num) {
+    pageRendering = true;
+    pdfDoc.getPage(num).then(function(page) {
+      const viewport = page.getViewport({scale: scale});
+      canvas.height = viewport.height;
+      canvas.width = viewport.width;
+
+      const renderContext = {
+        canvasContext: ctx,
+        viewport: viewport
+      };
+
+      const renderTask = page.render(renderContext);
+      renderTask.promise.then(function() {
+        pageRendering = false;
+        if (pageNumPending !== null) {
+          renderPage(pageNumPending);
+          pageNumPending = null;
+        }
+      });
+    });
+
+    document.getElementById('{{ unique_id }}-page-num').textContent =
+      'Page: ' + num + ' / ' + pdfDoc.numPages;
+  }
+
+  function queueRenderPage(num) {
+    if (pageRendering) {
+      pageNumPending = num;
+    } else {
+      renderPage(num);
+    }
+  }
+
+  function onPrevPage() {
+    if (pageNum <= 1) {
+      return;
+    }
+    pageNum--;
+    queueRenderPage(pageNum);
+  }
+
+  function onNextPage() {
+    if (pageNum >= pdfDoc.numPages) {
+      return;
+    }
+    pageNum++;
+    queueRenderPage(pageNum);
+  }
+
+  document.getElementById('{{ unique_id }}-prev').addEventListener('click', onPrevPage);
+  document.getElementById('{{ unique_id }}-next').addEventListener('click', onNextPage);
+
+  // Load the PDF
+  pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+    pdfDoc = pdfDoc_;
+    renderPage(pageNum);
+  }).catch(function(error) {
+    console.error('Error loading PDF:', error);
+    canvas.parentElement.innerHTML = '<p style="color: #e6e1e8; padding: 20px; text-align: center;">Error loading PDF. <a href="' + url + '" style="color: #56b4fc;">Download instead</a></p>';
+  });
+})();
+</script>
+
+<style>
+.pdf-btn:hover {
+  background-color: #7dc6ff !important;
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
+.pdf-btn:active {
+  transform: scale(0.95);
+}
+</style>

@@ -1,0 +1,112 @@
+---
+layout: page
+title: About
+subtitle: My story
+head-extra:
+  - splide-css.html
+  - animate.html
+  - wow.html
+---
+
+<p>Hi, I am <b>{{ site.author }}</b> 👋,</p>
+
+<p>As a homeschooled kid in small-town South Carolina, I was always drawn to computers. Once I realized I had a natural knack for technology, I never looked back. After graduating a couple of years early from high school, I kicked off my career on graduation day with an internship at a local system integrator. That led me deep into the world of programming, network infrastructure, telephony, and system automation.</p>
+
+<p>Over the past 30+ years in IT, I've worn a lot of hats — developer, network engineer, sysadmin, consultant — and earned a long list of certifications from Microsoft, Google, Citrix, Ascom, Genesys, Milestone VMS, and many more (yes, even the original MCSE on NT 4.0).</p>
+
+<p>What really sets me apart is my ability to think end-to-end. I don't just write code — I design <b>self-sustaining systems</b>. From front-end interfaces to back-end APIs, database design, and DevOps automation, I build tools that are functional, secure, and easy to maintain.</p>
+
+<p>These days, you'll find me scripting in Bash and Python, managing Dockerized services, building Jekyll-based websites, and fine-tuning self-hosted dashboards — all while staying curious and learning new things. Whether it's a Linux box in my home lab, a cloud VM, or a Raspberry Pi under my desk, I enjoy making tech work together like it was always meant to.</p>
+
+{% capture list_items %}
+Skills
+Badges
+Certifications
+Transcripts
+Timeline
+{% endcapture %}
+{% include elements/list.html title="" type="toc" %}
+
+<h2 id="skills">Skills</h2>
+<hr>
+<div class="row pb-5">
+{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
+{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+</div>
+
+<h2 id="badges">Badges</h2>
+<hr>
+<div class="badges-container pb-5">
+{% capture carousel_images %}
+/assets/badges/microsoft-azure-fundamentals.avif
+/assets/badges/microsoft-365-teams-administrator-associate.avif
+/assets/badges/mcse-square.avif
+/assets/badges/csc-champion-badge.avif
+/assets/badges/sip-ssca-elite.avif
+/assets/badges/milestone-certified-integration-technician-mcit.avif
+/assets/badges/mosyle.avif
+{% endcapture %}
+{% include elements/carousel.html %}
+</div>
+
+<h2 id="certifications">Certifications</h2>
+<hr>
+<div class="certifications-container pb-5">
+{% capture carousel_images %}
+/assets/certs/Microsoft-Certified-Azure-Fundamentals.jpg
+/assets/certs/Microsoft-365-Certified-Teams-Administrator-Associate.jpg
+/assets/certs/Microsoft-Certified-System-Engineer.jpg
+/assets/certs/Microsoft-Certified-Professional-Internet.jpg
+/assets/certs/Microsoft-Certified-Professional.jpg
+/assets/certs/2003-10-16_Microsoft_SQL_Server_2000_M2073.jpg
+/assets/certs/2002-05-24_Citrix_Certificate_NFuse_Administrator.jpg
+/assets/certs/2002-09-20_ININ_IC2x_Certificate_System_Administration.jpg
+/assets/certs/2002-09-27_ININ_IC2x_Certificate_System_Handler_Development.jpg
+/assets/certs/2008-12-10_DCC_Certification_Communicator-NXT-System-Administrator.jpg
+/assets/certs/2009-03-20_Ascom_FreeNET_Advanced.jpg
+/assets/certs/2009-03-20_Ascom_FreeNET_Basic.jpg
+/assets/certs/2009-03-26_Ascom_FreeNET_Avaya.jpg
+/assets/certs/2009-03-26_Ascom_FreeNET_Cisco.jpg
+/assets/certs/2009-03-26_Ascom_FreeNET_ShoreTel.jpg
+/assets/certs/2009-05-08_Ascom_UNITE.jpg
+/assets/certs/2009-05-31_Ascom_Certified_Systems_Integrator.jpg
+/assets/certs/2013-10-29_Software_House_C-CURE_9000.jpg
+/assets/certs/2015-06-25_Milestone-Advanced-Certification.jpg
+/assets/certs/2019-01-10_Milestone-Certified-Integration-Technician-MCIT.jpg
+/assets/certs/2021-09-26_Mosyle_certificate_628-A4F.jpg
+/assets/certs/2021-10-19_Netwrix-Certified-Partner-Sales-Professional-(NCPSP).jpg
+/assets/certs/2022-01-02_SIP_SSCA_Certification.jpg
+/assets/certs/Google-Chrome-Enterprise-and-SMB-Deployment-Credential.jpg
+/assets/certs/Google-Cloud-Sales-Credential.jpg
+/assets/certs/Google-Workspace-Sales-Credential.jpg
+/assets/certs/2022-03-20_Chrome_Enterprise_Deployment_Exam.jpg
+/assets/certs/2022-04-14_Druva_Endpoints_Onboarding.jpg
+/assets/certs/2022-08-17_Druva-Level-1-Druva-Cloud-Platform-Basics.jpg
+/assets/certs/2022-08-17_Druva-Level-1-Endpoints-Basics.jpg
+/assets/certs/2022-08-17_Druva-Level-2-Configure-Druva-Cloud-Platform.jpg
+/assets/certs/2022-08-17_Druva-Level-2-Endpoints-Configuration.jpg
+/assets/certs/GoFullPage.jpg
+/assets/certs/MailerLite-BFCM_emails_that_get_delivered_(avoiding_spam!).jpg
+/assets/certs/MailerLite-Build_websites_and_landing_pages.jpg
+/assets/certs/MailerLite-Collect_leads.jpg
+/assets/certs/MailerLite-E-commerce_with_MailerLite.jpg
+/assets/certs/MailerLite-Elevate_email_marketing_with_push_notifications.jpg
+/assets/certs/MailerLite-Getting_started_with_MailerLite.jpg
+/assets/certs/MailerLite-Send_emails.jpg
+/assets/certs/mailerlite-expert.jpg
+{% endcapture %}
+{% include elements/carousel.html %}
+</div>
+
+<h2 id="transcripts">Transcripts</h2>
+<hr>
+<div class="pb-5">
+<a class="m-1 btn btn-primary" href="/assets/certs/Transcript-Google.pdf" target="_blank" rel="noopener">Google <i class="fa-solid fa-arrow-up-right-from-square external-link-icon"></i></a>
+<a class="m-1 btn btn-primary" href="/assets/certs/Transcript-Microsoft-2023.pdf" target="_blank" rel="noopener">Microsoft <i class="fa-solid fa-arrow-up-right-from-square external-link-icon"></i></a>
+<a class="m-1 btn btn-primary" href="/assets/certs/Transcript-Milestone.pdf" target="_blank" rel="noopener">Milestone <i class="fa-solid fa-arrow-up-right-from-square external-link-icon"></i></a>
+</div>
+<h2 id="timeline">Timeline</h2>
+<hr>
+<div>
+{% include about/timeline.html %}
+</div>

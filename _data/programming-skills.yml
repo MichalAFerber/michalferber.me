@@ -1,0 +1,55 @@
+- name: HTML/CSS
+  percentage: 100
+  color: success
+
+- name: JavaScript
+  percentage: 80
+  color: success
+
+- name: TypeScript
+  percentage: 65
+  color: info
+
+- name: Python
+  percentage: 80
+  color: success
+  
+- name: C#
+  percentage: 90
+  color: success
+
+- name: PHP
+  percentage: 60
+  color: info
+
+- name: Ruby
+  percentage: 50
+  color: info
+
+- name: Rust
+  percentage: 40
+  color: warning
+
+- name: Bash/Shell
+  percentage: 70
+  color: info
+
+- name: PowerShell
+  percentage: 70
+  color: info
+
+- name: SQL
+  percentage: 75
+  color: success
+
+- name: YAML/JSON
+  percentage: 95
+  color: success
+
+- name: Markdown
+  percentage: 100
+  color: success
+
+- name: Docker / Docker Compose
+  percentage: 90
+  color: success

@@ -1,0 +1,84 @@
+- title: Freelance Consultant & Developer<br> TechGuyWithABeard<br><small>Florence, SC</small>
+  from: Jan 2025
+  to: Present
+  description:  Provide full stack development and IT consulting, specializing in C#, Python, and web solutions.
+                Architect self-hosted applications in a home lab, utilizing SQLite and PostgreSQL for data management and Docker for deployment.
+                Develop custom APIs and automation scripts, enhancing client workflows and reducing operational costs by up to 20%.
+                Maintain professional portfolio at michalferber.me, showcasing freelance projects and technical expertise.
+
+- title: Founder & CEO<br> Ari Integration LLC<br><small>Huntersville, NC</small>
+  from: Oct 2020
+  to: Jan 2025
+  description:  Founded a Managed Service Provider focusing on Virtual CIO, endpoint security, and cross-platform (Windows/macOS) management.
+                Architected cloud-based solutions using Azure and AWS, cutting client infrastructure costs by 25%.
+                Developed C# and PHP applications with RESTful APIs, streamlining operations for 50+ clients.
+                Secured Microsoft Silver Partner and Google Workspace Partner status.
+
+- title: Director of Telecommunications<br> McLeod Health<br><small>Florence, SC</small>
+  from: Oct 2012
+  to: Oct 2020
+  description:  Led IT and telecom for seven hospitals and 100+ practices, managing a $2.1M budget.
+                Implemented VESTA Communicator, automating notifications for 8,600 staff via API integrations, slashing emergency response times from 10 minutes to 1.5 minutes (featured in Airbus/Motorola case studies, 2014–2018).
+                Engineered a C# video camera application for COVID patient monitoring, deployed in 500+ rooms in 30 days.
+                Built a C# and web-based work order system, boosting team efficiency by 40%.
+                Managed infrastructure including Avaya PBX (9,500+ stations), Genesys PBX, and Milestone CCTV (750+ cameras).
+                Secured USAC grants as IT liaison with SCDOT, SCDHEC, and SCEMD.    
+
+- title: Telecommunications Manager<br> McLeod Health<br> <small>Florence, SC</small>
+  from: Feb 2007
+  to: Oct 2012
+  description:  Directed telecom operations for three hospitals and 60+ practices, overseeing budgets and upgrades.
+                Deployed a VoIP system with 300 wireless phones, scaling to 1,200+ with zero downtime.
+                Optimized switchboard operations, cutting response times by 30%.
+
+- title: Software Engineer<br> Taylor Data Systems, Inc.<br> <small>Florence, SC</small>
+  from: Aug 2005
+  to: Feb 2007
+  description:  Developed a VB.NET and XML tagging application for a global steel manufacturer, integrating with Ross ERP.
+                Delivered solutions using .NET, C#, SQL Server, Oracle, and AWS, meeting 100% of client SLAs.
+                Managed Cisco networks and Windows Servers, ensuring 99.9% uptime.
+
+- title: Software Engineer<br> Knight Software, Inc.<br> <small>Florence, SC</small>
+  from: Nov 2004
+  to: Aug 2005
+  description:  Engineered VB6 and VB.NET features for the KIS product line, serving 10,000+ users.
+                Co-developed an ASP.NET and SQL Server web application, reducing onboarding time by 50%.
+                Resolved 95% of helpdesk tickets within 24 hours.
+
+- title: Server Engineer<br> McLeod Health<br> <small>Florence, SC</small>
+  from: Jun 2000
+  to: Nov 2004
+  description:  Built a VB6 and ASP bed-tracking system with SQL Server, integrated with EMR via HL7, adopted by multiple hospitals.
+                Developed a TCP/IP management web app, improving IP allocation by 60%.
+                Managed Citrix and IIS web farms, supporting 400+ applications across 250 servers.
+
+- title: Project Manager<br> Netcom Information Systems<br> <small>Florence, SC</small>
+  from: Feb 1999
+  to: Jun 2000
+  description:  Created an ASP and SQL Server work order system, cutting delivery times by 20%.
+                Delivered Microsoft and Cisco network solutions across NC and SC.
+                Programmed a Windows CE inventory app for CP&L linemen.
+
+- title: Freelance Consultant<br> Self-Employed<br> <small>Florence, SC</small>
+  from: Mar 1998
+  to: Feb 1999
+  description:  Designed robotic motion control systems for Lockheed Martin, enabling remote missile inspections.
+                Migrated TMACS database to a Microsoft NT web platform for Warner Robins Air Force Base.
+                Founded a web hosting company, serving 50+ clients with 99.8% uptime.
+
+- title: Support Engineer<br> ACS Technologies<br> <small>Florence, SC</small>
+  from: Jun 1997
+  to: Mar 1998
+  description:  Provided technical support for software solutions, resolving 90% of issues within SLAs.
+                Led Windows 2000 deployment for 1,000+ devices across Gulf Coast offices.
+
+- title: Chief Technologist<br> Victory Industries, Inc.<br> <small>Lamar, SC</small>
+  from: Apr 1996
+  to: Jun 1997
+  description:  Migrated Microsoft NT 3.51 to NT 4 across a 4-city WAN, improving network reliability.
+                Managed SQL and IIS servers, ensuring 99.5% uptime.
+
+- title: Intern<br> Victory Industries, Inc.<br> <small>Lamar, SC</small>
+  from: Apr 1995
+  to: Apr 1996
+  description:  Assisted in network administration and software development, gaining foundational IT and business skills.

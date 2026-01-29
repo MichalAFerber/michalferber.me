@@ -1,0 +1,284 @@
+{%- comment -%}
+Responsive Image Carousel with Lightbox
+Params:
+- carousel_images: Newline-separated list of image paths
+Features:
+- Responsive image sizing
+- Click to open in lightbox
+- Smooth carousel transitions
+{%- endcomment -%}
+
+{%- assign images = carousel_images | to_s | strip | newline_to_br | split: '<br />' -%}
+{%- capture idx -%}{% increment about_carousel %}{%- endcapture -%}
+{%- assign cid = 'splide-' | append: idx -%}
+
+{% if idx == '0' %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+{% endif %}
+
+<div id="{{ cid }}" class="splide carousel-container" aria-label="Image carousel">
+  <div class="splide__track">
+    <ul class="splide__list">
+      {% for image in images %}
+      {%- assign img = image | strip -%}
+      {%- assign alt = img | split:'/' | last | split:'.' | first | replace:'-',' ' | replace:'_',' ' -%}
+      <li class="splide__slide">
+        <a href="{{ img | relative_url }}" class="glightbox" data-gallery="carousel-{{ cid }}}">
+          <img src="{{ img | relative_url }}" alt="{{ alt | escape }}" class="carousel-image">
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<style>
+.carousel-container {
+  max-width: 100%;
+  margin: 20px auto;
+  position: relative;
+}
+
+/* Center carousel slides */
+.splide__slide {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 600px !important;
+  padding: 40px 20px !important;
+}
+
+.carousel-image {
+  width: auto !important;
+  height: auto !important;
+  max-width: 100% !important;
+  max-height: 600px !important;
+  object-fit: contain !important;
+  cursor: pointer !important;
+  border-radius: 8px !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+.carousel-image:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 0 30px rgba(86, 180, 252, 0.8),
+              0 0 60px rgba(86, 180, 252, 0.6),
+              0 0 90px rgba(86, 180, 252, 0.4),
+              0 0 120px rgba(86, 180, 252, 0.2) !important;
+  filter: brightness(1.15) drop-shadow(0 0 20px rgba(86, 180, 252, 0.7)) !important;
+}
+
+/* Move pagination below with more margin */
+.splide__pagination {
+  position: relative !important;
+  bottom: auto !important;
+  margin-top: 40px !important;
+  padding-bottom: 20px !important;
+}
+
+/* Simple white dot pagination */
+.splide__pagination__page {
+  background: rgba(255, 255, 255, 0.4) !important;
+  border: none !important;
+  border-radius: 50% !important;
+  width: 6px !important;
+  height: 6px !important;
+  padding: 0 !important;
+  margin: 0 4px !important;
+  transition: background 0.2s ease !important;
+  transform: none !important;
+  opacity: 1 !important;
+  box-shadow: none !important;
+  color: transparent !important;
+  text-indent: -9999px !important;
+  font-size: 0 !important;
+}
+
+.splide__pagination__page.is-active {
+  background: rgba(255, 255, 255, 1) !important;
+  transform: none !important;
+}
+
+.splide__pagination__page:hover {
+  background: rgba(255, 255, 255, 0.7) !important;
+  transform: none !important;
+}
+
+/* Position arrows outside the image area */
+.carousel-container {
+  padding: 0 60px !important;
+}
+
+.splide__arrow {
+  background: rgba(68, 67, 77, 0.9) !important;
+  border: 2px solid #56b4fc !important;
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 50% !important;
+  opacity: 1 !important;
+  transition: all 0.3s ease !important;
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 !important;
+  line-height: 0 !important;
+}
+
+.splide__arrow:hover {
+  background: #56b4fc !important;
+  border-color: #7dc6ff !important;
+  transform: translateY(-50%) scale(1.1) !important;
+}
+
+.splide__arrow svg {
+  fill: #56b4fc !important;
+  width: 16px !important;
+  height: 16px !important;
+  display: block !important;
+  margin: auto !important;
+}
+
+.splide__arrow:hover svg {
+  fill: #27262b !important;
+}
+
+.splide__arrow--prev {
+  left: -60px !important;
+}
+
+.splide__arrow--next {
+  right: -60px !important;
+}
+
+/* GLightbox dark theme customization */
+.glightbox-clean .gslide-description {
+  background: rgba(39, 38, 43, 0.95);
+  color: #e6e1e8;
+}
+
+.glightbox-clean .gslide-title {
+  color: #56b4fc;
+  font-weight: 600;
+}
+
+.glightbox-clean .gclose,
+.glightbox-clean .gnext,
+.glightbox-clean .gprev {
+  color: #e6e1e8;
+  background: rgba(68, 67, 77, 0.8);
+  border-radius: 4px;
+}
+
+.glightbox-clean .gclose:hover,
+.glightbox-clean .gnext:hover,
+.glightbox-clean .gprev:hover {
+  background: #56b4fc;
+  color: #27262b;
+}
+
+/* Responsive sizing */
+@media (max-width: 768px) {
+  .carousel-container {
+    padding: 0 50px !important;
+  }
+
+  .splide__arrow--prev {
+    left: -50px !important;
+  }
+
+  .splide__arrow--next {
+    right: -50px !important;
+  }
+
+  .splide__slide {
+    min-height: 400px !important;
+    padding: 30px 15px !important;
+  }
+
+  .carousel-image {
+    max-height: 400px !important;
+  }
+
+  .splide__pagination {
+    margin-top: 30px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-container {
+    padding: 0 40px !important;
+  }
+
+  .splide__arrow {
+    width: 36px !important;
+    height: 36px !important;
+  }
+
+  .splide__arrow--prev {
+    left: -40px !important;
+  }
+
+  .splide__arrow--next {
+    right: -40px !important;
+  }
+
+  .splide__slide {
+    min-height: 300px !important;
+    padding: 20px 10px !important;
+  }
+
+  .carousel-image {
+    max-height: 300px !important;
+  }
+
+  .splide__pagination {
+    margin-top: 20px !important;
+  }
+}
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // 1. Initialize Splide with slideFocus disabled to prevent aria conflicts
+    const splide = new Splide('#{{ cid }}', {
+      type: 'fade',
+      rewind: true,
+      pagination: true,
+      arrows: true,
+      autoplay: false,
+      heightRatio: 0.5,
+      cover: false,
+      slideFocus: false, // Prevents focus-trap errors in console
+    }).mount();
+
+    // 2. Initialize GLightbox
+    const lightbox = GLightbox({
+      selector: '.glightbox',
+      touchNavigation: true,
+      loop: true,
+      autoplayVideos: true,
+      closeButton: true,
+      closeOnOutsideClick: true,
+    });
+
+    // 3. Accessibility "Inert" Fix
+    // When lightbox opens, hide background from focus
+    lightbox.on('open', () => {
+      const mainContent = document.querySelector('main');
+      if (mainContent) mainContent.setAttribute('inert', '');
+    });
+
+    // When lightbox closes, restore background focus
+    lightbox.on('close', () => {
+      const mainContent = document.querySelector('main');
+      if (mainContent) mainContent.removeAttribute('inert');
+    });
+  });
+</script>

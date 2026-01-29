@@ -1,0 +1,4 @@
+Contact: mailto:michal@techguywithabeard.com
+Expires: 2027-01-01T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://michalferber.me/.well-known/security.txt

@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+/* TEAM */
+  Site Owner: Michal Ferber
+  Twitter: @TechGuyWithABeard
+  Location: United States
+
+/* THANKS */
+  Beautiful Jekyll Theme: https://beautifuljekyll.com/
+  Jekyll: https://jekyllrb.com/
+  GitHub Pages: https://pages.github.com/
+
+/* SITE */
+  Last update: 2026
+  Language: English
+  Doctype: HTML5
+  IDE: Visual Studio Code

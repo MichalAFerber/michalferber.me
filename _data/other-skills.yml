@@ -1,0 +1,55 @@
+- name: Lifelong Learning
+  percentage: 95
+  color: success
+
+- name: Self-Motivation
+  percentage: 90
+  color: success
+
+- name: Integrity/Honesty
+  percentage: 90
+  color: success
+
+- name: Work Ethic
+  percentage: 85
+  color: success
+
+- name: Attention to Detail
+  percentage: 85
+  color: success
+
+- name: Communication
+  percentage: 85
+  color: success
+
+- name: Technical Writing
+  percentage: 85
+  color: success
+
+- name: Teamwork
+  percentage: 80
+  color: success
+
+- name: Leadership
+  percentage: 80
+  color: success
+
+- name: Problem Solving
+  percentage: 80
+  color: success
+
+- name: Resilience
+  percentage: 80
+  color: success
+
+- name: Project Management
+  percentage: 75
+  color: success
+
+- name: Adaptability/Flexibility
+  percentage: 75
+  color: success
+
+- name: Creativity
+  percentage: 75
+  color: success

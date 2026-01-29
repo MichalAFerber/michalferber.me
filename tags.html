@@ -1,0 +1,203 @@
+---
+layout: page
+title: Tags
+---
+
+<div class="tags-page">
+  {% assign all_tags = site.tags | sort %}
+
+  <hr style="margin: 0 0 40px 0; border-color: #44434d;">
+
+  <div class="tag-list">
+    <h2 style="text-align: center; margin-bottom: 30px;">Interactive Tag Cloud</h2>
+    <div id="tags-cloud-3d" class="tags-cloud-3d">
+      {% for tag in all_tags %}
+        <a href="#{{ tag[0] | slugify }}" class="tag-cloud-item" data-weight="{{ tag[1] | size }}">
+          {{ tag[0] }}
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+
+  <hr style="margin: 40px 0; border-color: #44434d;">
+
+  <div class="posts-by-tag">
+    {% for tag in all_tags %}
+      <h3 id="{{ tag[0] | slugify }}">{{ tag[0] }} <span class="tag-count">({{ tag[1] | size }} posts)</span></h3>
+      <ul class="post-list">
+        {% for post in tag[1] %}
+          <li>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <span class="post-date">{{ post.date | date: site.date_format }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+.tags-cloud-3d {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 40px 20px;
+  perspective: 1000px;
+}
+
+.tag-cloud-item {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(68, 67, 77, 0.5);
+  border: 1px solid #44434d;
+  border-radius: 20px;
+  color: #56b4fc !important;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.tag-cloud-item:hover {
+  background-color: #56b4fc;
+  color: #27262b !important;
+  border-color: #56b4fc;
+  transform: scale(1.1) translateZ(20px);
+  box-shadow: 0 5px 15px rgba(86, 180, 252, 0.4);
+}
+
+.tag-count {
+  color: #959396;
+  font-size: 0.85em;
+  font-weight: normal;
+}
+
+.posts-by-tag h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #56b4fc;
+  border-bottom: 2px solid #56b4fc;
+  padding-bottom: 5px;
+  scroll-margin-top: 100px;
+}
+
+.post-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+
+.post-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-left: 3px solid #44434d;
+  padding-left: 15px;
+  transition: all 0.2s ease;
+}
+
+.post-list li:hover {
+  border-left-color: #56b4fc;
+  background-color: rgba(86, 180, 252, 0.1);
+  transform: translateX(5px);
+}
+
+.post-list li a {
+  color: #e6e1e8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.post-list li a:hover {
+  color: #56b4fc;
+}
+
+.post-date {
+  color: #959396;
+  font-size: 0.9em;
+  margin-left: 10px;
+}
+</style>
+
+<script>
+(function() {
+  'use strict';
+
+  // Animate tag cloud with size variation based on weight
+  const tagCloud = document.getElementById('tags-cloud-3d');
+  const tags = tagCloud.querySelectorAll('.tag-cloud-item');
+
+  // Calculate min and max weights
+  let minWeight = Infinity;
+  let maxWeight = 0;
+
+  tags.forEach(tag => {
+    const weight = parseInt(tag.getAttribute('data-weight')) || 1;
+    if (weight < minWeight) minWeight = weight;
+    if (weight > maxWeight) maxWeight = weight;
+  });
+
+  // Apply size based on weight
+  tags.forEach(tag => {
+    const weight = parseInt(tag.getAttribute('data-weight')) || 1;
+    const normalized = (weight - minWeight) / (maxWeight - minWeight || 1);
+    const fontSize = 0.9 + (normalized * 0.8); // Range from 0.9em to 1.7em
+    const opacity = 0.7 + (normalized * 0.3); // Range from 0.7 to 1.0
+
+    tag.style.fontSize = fontSize + 'em';
+    tag.style.opacity = opacity;
+  });
+
+  // Add smooth scroll to tag sections
+  tags.forEach(tag => {
+    tag.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href');
+      const targetElement = document.querySelector(targetId);
+
+      if (targetElement) {
+        targetElement.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+
+        // Add highlight effect
+        targetElement.style.transition = 'color 0.3s ease';
+        const originalColor = targetElement.style.color;
+        targetElement.style.color = '#7dc6ff';
+
+        setTimeout(() => {
+          targetElement.style.color = originalColor;
+        }, 1000);
+      }
+    });
+  });
+
+  // Add subtle floating animation
+  tags.forEach((tag, index) => {
+    const delay = index * 0.1;
+    const duration = 3 + (Math.random() * 2);
+
+    tag.style.animation = `float ${duration}s ease-in-out ${delay}s infinite`;
+  });
+
+  // Create floating animation
+  const style = document.createElement('style');
+  style.textContent = `
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+  `;
+  document.head.appendChild(style);
+})();
+</script>

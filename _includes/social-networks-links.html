@@ -1,0 +1,33 @@
+{% if site.social-network-links %}
+<ul class="list-inline text-center footer-links">
+
+{%- for network in site.social-network-links -%}
+
+  {%- if network[0] == "email" -%}
+  <li class="list-inline-item px-1">
+    <a href="mailto:{{ network[1] }}" title="Email me">
+      <img src="{{ '/assets/img/proton-mail.svg' | relative_url }}" alt="Email me" width="40" height="32" />
+    </a>
+  </li>
+  {%- endif -%}
+
+  {%- if network[0] == "github" -%}
+  <li class="list-inline-item px-1">
+    <a href="https://github.com/{{ network[1] }}" target="_blank" title="GitHub">
+      <img src="{{ '/assets/img/github-light.svg' | relative_url }}" alt="GitHub" width="32" height="32" />
+    </a>
+  </li>
+  {%- endif -%}
+
+  {%- if network[0] == "twitter" -%}
+  <li class="list-inline-item px-1">
+    <a href="https://twitter.com/{{ network[1] }}" target="_blank" title="X (Twitter)">
+      <img src="{{ '/assets/img/twitter.svg' | relative_url }}" alt="X (Twitter)" width="40" height="32" />
+    </a>
+  </li>
+  {%- endif -%}
+
+{%- endfor -%}
+
+</ul>
+{% endif %}

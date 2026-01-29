@@ -1,0 +1,7 @@
+# robots.txt — production (michalferber.me)
+User-agent: *
+Disallow:
+
+# If your build publishes a sitemap (jekyll-sitemap), keep this line.
+# If not, either add the plugin or remove this line.
+Sitemap: https://michalferber.me/sitemap.xml

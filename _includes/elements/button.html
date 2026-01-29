@@ -1,0 +1,67 @@
+{%- comment -%} ---- Size (BS5 supports sm | lg only) ---- {%- endcomment -%}
+{%- assign size = include.size | default: '' -%}
+{%- case size -%}
+{%- when 'sm' -%}{% assign size_class = 'btn-sm' %}
+{%- when 'lg' -%}{% assign size_class = 'btn-lg' %}
+{%- else -%}{% assign size_class = '' %}
+{%- endcase -%}
+
+{%- comment -%} ---- Block (full width) ---- {%- endcomment -%}
+{%- if include.block -%}
+{%- assign block_class = 'w-100 d-inline-block' -%}
+{%- else -%}
+{%- assign block_class = '' -%}
+{%- endif -%}
+
+{%- comment -%} ---- URL handling (external vs internal) ---- {%- endcomment -%}
+{%- assign raw = include.link | default: '#' -%}
+{%- if raw contains '://' or raw contains 'mailto:' -%}
+{%- assign href = raw -%}
+{%- assign is_external = true -%}
+{%- else -%}
+{%- assign href = raw | relative_url -%}
+{%- assign is_external = false -%}
+{%- endif -%}
+
+{%- comment -%} ---- Icon handling ----
+Params:
+- icon: class string (e.g., 'fa-solid fa-download')
+- icon_position: 'left' (default) | 'right'
+- icon_class: extra classes to add to the <i>
+  - icon_spin: true/false (adds 'fa-spin')
+  - icon_only: true/false (no visible text; uses sr_text/title for a11y)
+  - sr_text: screen-reader label for icon-only
+  {%- endcomment -%}
+  {%- assign text = include.text | default: '' -%}
+  {%- assign has_text = text != '' -%}
+  {%- assign icon_pos = include.icon_position | default: 'left' -%}
+
+  {%- if include.icon -%}
+  {%- assign icon_classes = include.icon -%}
+  {%- if include.icon_class %}{% assign icon_classes = icon_classes | append: ' ' | append: include.icon_class %}{%
+  endif -%}
+  {%- if include.icon_spin %}{% assign icon_classes = icon_classes | append: ' fa-spin' %}{% endif -%}
+  {%- endif -%}
+
+  {%- assign btn_classes = 'm-1 btn btn-' | append: (include.style | default: 'outline-primary') -%}
+  {%- if size_class %}{% assign btn_classes = btn_classes | append: ' ' | append: size_class %}{% endif -%}
+  {%- if block_class %}{% assign btn_classes = btn_classes | append: ' ' | append: block_class %}{% endif -%}
+  {%- if include.icon_only %}{% assign btn_classes = btn_classes | append: ' btn-icon' %}{% endif -%}
+
+  <a class="{{ btn_classes }}" href="{{ href }}" {%- if include.title %} title="{{ include.title | escape }}" {% endif
+    -%} {%- if include.download %} download{% endif -%} {%- if include.disabled %} aria-disabled="true" tabindex="-1"
+    class="disabled" {% endif -%} {%- if is_external or include.newtab %} target="_blank" rel="noopener" {% endif -%}
+    {%- if include.icon_only and include.sr_text %} aria-label="{{ include.sr_text | escape }}" {% endif -%}>
+    {%- if include.icon and include.icon_only -%}
+    <span class="visually-hidden">{{ include.sr_text | default: include.title | default: 'Button' }}</span>
+    <i class="{{ icon_classes }}" aria-hidden="true"></i>
+    {%- elsif include.icon and has_text -%}
+    {%- if icon_pos == 'right' -%}
+    {{ text }} <i class="{{ icon_classes }} ms-2" aria-hidden="true"></i>
+    {%- else -%}
+    <i class="{{ icon_classes }} me-2" aria-hidden="true"></i> {{ text }}
+    {%- endif -%}
+    {%- else -%}
+    {{ text | default: 'Button' }}
+    {%- endif -%}
+  </a>
