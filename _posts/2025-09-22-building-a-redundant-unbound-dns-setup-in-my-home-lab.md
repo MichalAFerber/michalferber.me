@@ -23,7 +23,7 @@ thumbnail-img: /assets/img/unbound_logo.avif
 
 ![Website Code]({{ "/assets/img/unbound_logo.avif" | relative_url | absolute_url }})
 
-# 🛡️ Building a Redundant Unbound DNS Setup in My Home Lab
+## 🛡️ Building a Redundant Unbound DNS Setup in My Home Lab
 
 When you've got a growing home lab, stable DNS becomes the foundation everything else relies on. Over the last few weeks, I took the time to standardize my DNS with **Unbound** running on two Raspberry Pi 4 servers, making it redundant, secure, and easy to maintain.
 
