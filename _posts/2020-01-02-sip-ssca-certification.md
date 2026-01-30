@@ -3,7 +3,7 @@ layout: post
 date: 2020-01-02 00:00:00 +0000
 title: "SSCA® 'Elite' SIP training and SIP Certification"
 subtitle: "The SSCA® SIP training program has been the defacto certification for SIP students around the world since its inception in 2008."
-tags: [SIP, VoIP, IP Phone Telecommunications, SIP Trunking, STIR/SHAKEN]
+tags: [sip, voip, ip-phone-telecommunications, sip-trunking, stir/shaken]
 comments: true
 style: fill
 color: secondary

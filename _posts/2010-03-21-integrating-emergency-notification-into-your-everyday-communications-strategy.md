@@ -3,7 +3,7 @@ layout: post
 date: 2010-03-21 00:00:00 +0000
 title: Integrating Emergency Alerts for Better ROI
 subtitle: "Speaking at Disaster Recovery Journal | Spring World 2010"
-tags: [Emergency Notification, Emergency Communications]
+tags: [emergency-notification, emergency-communications]
 comments: true
 style: fill
 color: warning

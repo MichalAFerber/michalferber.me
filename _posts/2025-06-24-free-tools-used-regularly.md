@@ -3,7 +3,7 @@ layout: post
 date: 2025-06-24 00:00:00 +0000
 title: Free Tools I Use Regularly
 subtitle: A curated list of free tools and services I use daily, shaped by over 30 years of IT experience and a passion for open-source software.
-tags: [Free Tools, Open Source, FOSS, Productivity, Web Tools]
+tags: [free-tools, open-source, foss, productivity, web-tools]
 comments: true
 style: fill
 color: primary

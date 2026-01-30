@@ -3,7 +3,7 @@ layout: post
 date: 2025-08-07 00:00:00 +0000
 title: "The First 90 Days of Sudden Wealth: A Humanitarian’s Guide"
 subtitle: A 90-day framework for navigating sudden wealth with wisdom, privacy, and stewardship.
-tags: [sudden wealth, wealth management, humanitarian, trust planning, financial stewardship]
+tags: [sudden-wealth, wealth-management, humanitarian, trust-planning, financial-stewardship]
 comments: true
 style: fill
 color: secondary

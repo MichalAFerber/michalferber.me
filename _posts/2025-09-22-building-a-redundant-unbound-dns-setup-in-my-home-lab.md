@@ -1,20 +1,7 @@
 ---
 title: Building a Redundant Unbound DNS Setup in My Home Lab
 description: Build a redundant Unbound DNS setup on Raspberry Pi with automated config sync, security hardening, and health monitoring.
-tags:
-  - DNS
-  - unbound
-  - Homelab
-  - raspberry-pi
-  - self-hosted
-  - networking
-  - Linux
-  - devops
-  - dnssec
-  - home-networking
-  - redundancy
-  - guide
-  - tutorial
+tags: [dns, unbound, homelab, raspberry-pi, self-hosted, networking, linux, devops, dnssec, home-networking, redundancy, guide, tutorial]
 comments: true
 style: fill
 color: primary

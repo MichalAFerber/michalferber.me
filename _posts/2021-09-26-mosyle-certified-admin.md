@@ -3,7 +3,7 @@ layout: post
 date: 2021-09-26 00:00:00 +0000
 title: "Mosyle Certified Admin"
 subtitle: "This certificate deems the recipient competent and skilled in Mosyle Business MDM. He has completed certification and become a Mosyle Certified Admin."
-tags: [MDM, Mobile Device Manager, Endpoint Management, Apple, iOS, macOS]
+tags: [mdm, mobile-device-manager, endpoint-management, apple, ios, macos]
 comments: true
 style: fill
 color: secondary

@@ -3,7 +3,7 @@ layout: post
 date: 2019-10-24 00:00:00 +0000
 title: Vesta Alert Notification System
 subtitle: South Carolina ARC GIS conference
-tags: [Emergency Notification, Emergency Communications]
+tags: [emergency-notification, emergency-communications]
 comments: true
 style: fill
 color: warning

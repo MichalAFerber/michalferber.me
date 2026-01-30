@@ -3,7 +3,7 @@ layout: post
 date: 2025-07-31 00:00:00 +0000
 title: How To Install And Use Net Tools In Ubuntu
 subtitle: Install and use the classic net-tools package on Ubuntu to get commands like ifconfig, netstat, route, and more.
-tags: [Raspberry Pi, Linux, How To, ubuntu, networking, cli, tools]
+tags: [raspberry-pi, linux, how-to, ubuntu, networking, cli, tools]
 comments: true
 style: fill
 color: primary

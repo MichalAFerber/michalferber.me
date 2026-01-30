@@ -3,7 +3,7 @@ layout: post
 date: 2025-08-04 00:00:00 +0000
 title: "DIY Raspberry Pi Pico Environmental Monitor"
 subtitle: Build an environmental monitoring system with a Raspberry Pi Pico to measure temperature, humidity, pressure, air quality, and more.
-tags: [raspberry pi pico, environmental monitor, sensors, micropython, air quality, diy]
+tags: [raspberry-pi-pico, environmental-monitor, sensors, micropython, air-quality, diy]
 comments: true
 style: fill
 color: primary

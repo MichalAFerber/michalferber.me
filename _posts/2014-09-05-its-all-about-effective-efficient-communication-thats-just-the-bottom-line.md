@@ -3,7 +3,7 @@ layout: post
 date: 2014-09-05 00:00:00 +0000
 title: It’s all about Effective, Efficient Communication
 subtitle: That’s Just the Bottom Line
-tags: [Emergency Notification, Emergency Communications]
+tags: [emergency-notification, emergency-communications]
 comments: true
 style: fill
 color: danger

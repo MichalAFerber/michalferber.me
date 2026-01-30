@@ -3,7 +3,7 @@ layout: post
 date: 2025-07-22 00:00:00 +0000
 title: How to Set a Static IP on Ubuntu (Netplan) with DNS Failover
 subtitle: Using the Ubuntu (Netplan) to manage your ip address
-tags: [Raspberry Pi, Linux, How To, ubuntu, networking, netplan, static-ip, dns]
+tags: [raspberry-pi, linux, how-to, ubuntu, networking, netplan, static-ip, dns]
 comments: true
 style: fill
 color: primary

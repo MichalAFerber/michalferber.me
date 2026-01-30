@@ -3,7 +3,7 @@ layout: post
 date: 2025-08-08 00:00:00 +0000
 title: "Psalm 82:6 — I said, You are gods"
 subtitle: A deep dive into Psalm 82:6, exploring the names of God, Christ Consciousness, and what it means to be made in His image.
-tags: [Psalm 82:6, theology, Bible study, Christ Consciousness, names of God, spirituality]
+tags: [psalm-82:6, theology, bible-study, christ-consciousness, names-of-god, spirituality]
 comments: true
 style: fill
 color: light

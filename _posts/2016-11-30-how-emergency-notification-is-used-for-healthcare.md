@@ -3,7 +3,7 @@ layout: post
 date: 2016-11-30 00:00:00 +0000
 title: How emergency notification is used for healthcare.
 subtitle: A case study on McLeod Health emergency notification
-tags: [Emergency Notification, Emergency Communications]
+tags: [emergency-notification, emergency-communications]
 comments: true
 style: fill
 color: danger

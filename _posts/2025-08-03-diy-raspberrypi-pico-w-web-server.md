@@ -3,7 +3,7 @@ layout: post
 date: 2025-08-03 00:00:00 +0000
 title: "DIY Raspberry Pi Pico W Web Server"
 subtitle: Learn how to host a simple web page from your Raspberry Pi Pico W using MicroPython and Wi-Fi.
-tags: [raspberry pi pico w, web server, micropython, diy, iot, wifi]
+tags: [raspberry-pi-pico-w, web-server, micropython, diy, iot, wifi]
 comments: true
 style: fill
 color: primary

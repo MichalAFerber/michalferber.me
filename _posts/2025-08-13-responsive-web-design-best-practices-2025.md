@@ -3,7 +3,7 @@ layout: post
 date: 2025-08-13 00:00:00 +0000
 title: "Responsive Web Design Best Practices in 2025"
 subtitle: "Responsive design in 2025: content-based breakpoints, fluid layouts, optimized images (AVIF/WebP), SVG, and when to use a CDN versus self-hosting."
-tags: [responsive, css, media queries, images, performance, SVG, Bootstrap, Tailwind]
+tags: [responsive, css, media-queries, images, performance, svg, bootstrap, tailwind]
 comments: true
 style: fill
 color: primary

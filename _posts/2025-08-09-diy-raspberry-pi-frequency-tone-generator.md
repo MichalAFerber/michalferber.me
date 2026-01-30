@@ -3,7 +3,7 @@ layout: post
 date: 2025-08-09 00:00:00 +0000
 title: "DIY Raspberry Pi Frequency Tone Generator"
 subtitle: Build a low-cost, standalone frequency generator using a Raspberry Pi for exploring vibrational medicine, bioresonance, or sound therapy.
-tags: [raspberry pi, frequency generator, vibrational medicine, sound therapy, diy, tone generator]
+tags: [raspberry-pi, frequency-generator, vibrational-medicine, sound-therapy, diy, tone-generator]
 comments: true
 style: fill
 color: primary

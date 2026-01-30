@@ -3,7 +3,7 @@ layout: post
 date: 2025-07-29 00:00:00 +0000
 title: Install and Automate Ookla Speedtest CLI on Ubuntu
 subtitle: Using the Ookla Speedtest CLI to perform speedtest
-tags: [Raspberry Pi, Linux, How To, ubuntu, speedtest, networking, cli, automation]
+tags: [raspberry-pi, linux, how-to, ubuntu, speedtest, networking, cli, automation]
 comments: true
 style: fill
 color: primary

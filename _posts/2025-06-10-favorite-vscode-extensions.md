@@ -3,7 +3,7 @@ layout: post
 date: 2025-06-10 00:00:00 +0000
 title: My Favorite VS Code Extensions
 subtitle: A comprehensive list of my favorite VS Code extensions grouped by category, with links, descriptions, and examples of how to use them.
-tags: [VS Code, Extensions, Productivity, Development]
+tags: [vs-code, extensions, productivity, development]
 comments: true
 style: fill
 color: primary

@@ -3,7 +3,7 @@ layout: post
 date: 2025-07-02 00:00:00 +0000
 title: "The Names of God: Jehovah, Yeshua, and Their Meaning"
 subtitle: A study of the names of God in Scripture, their meanings, and how they reveal His character — with a focus on Jehovah and Yeshua.
-tags: [names of God, Jehovah, Yeshua, theology, Bible study, spirituality]
+tags: [names-of-god, jehovah, yeshua, theology, bible-study, spirituality]
 comments: true
 style: fill
 color: light

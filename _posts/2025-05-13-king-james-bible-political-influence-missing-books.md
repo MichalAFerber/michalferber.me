@@ -3,7 +3,7 @@ layout: post
 date: 2025-05-13 00:00:00 +0000
 title: "King James Bible: Political Influence and Missing Books"
 subtitle: How the King James Bible shaped culture, its missing books, and the politics behind its creation
-tags: [History, Bible, King James, Tyndale, English Language, Lost Books]
+tags: [history, bible, king-james, tyndale, english-language, lost-books]
 comments: true
 style: fill
 color: light
