@@ -1,12 +1,9 @@
 ---
 layout: post
-date: 2025-08-10 00:00:00 +0000
 title: "Vibrational Medicine: Healing with Frequencies"
-subtitle: Explore how specific sound frequencies may aid in wellness, paired with a DIY Raspberry Pi tone generator and free downloadable tools.
+description: Explore how specific sound frequencies may aid in wellness, paired with a DIY Raspberry Pi tone generator and free downloadable tools.
 tags: [vibrational-medicine, healing-frequencies, raspberry-pi, tone-generator, holistic-health, alternative-medicine]
 comments: true
-style: fill
-color: info
 thumbnail-img: /assets/img/sound-wave.jpg
 ---
 

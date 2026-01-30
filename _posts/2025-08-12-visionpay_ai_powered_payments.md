@@ -1,12 +1,9 @@
 ---
 layout: post
-date: 2025-08-12 00:00:00 +0000
 title: "VisionPay: AI-Powered Payments"
-subtitle: Concept design for an AI-powered payment system using Raspberry Pi 5, Hailo AI module, camera, and blockchain integration.
+description: Concept design for an AI-powered payment system using Raspberry Pi 5, Hailo AI module, camera, and blockchain integration.
 tags: [visionpay, raspberry-pi-5, hailo-ai, blockchain, ai-payments, computer-vision]
 comments: true
-style: fill
-color: primary
 thumbnail-img: /assets/img/raspberry-pi-ai-hat.jpg
 ---
 

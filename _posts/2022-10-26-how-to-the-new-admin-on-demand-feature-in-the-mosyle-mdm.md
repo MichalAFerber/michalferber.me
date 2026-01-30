@@ -1,12 +1,9 @@
 ---
 layout: post
-date: 2022-10-26 00:00:00 +0000
 title: The new Admin On-Demand feature in the Mosyle MDM
-subtitle: Learn how to set up and use the Admin On-Demand feature in Mosyle MDM for secure, temporary admin access on Mac and iOS devices.
+description: Learn how to set up and use the Admin On-Demand feature in Mosyle MDM for secure, temporary admin access on Mac and iOS devices.
 tags: [how-to, mdm, mosyle]
 comments: true
-style: fill
-color: primary
 thumbnail-img: /assets/img/mosyle-admin-on-demand.png
 ---
 

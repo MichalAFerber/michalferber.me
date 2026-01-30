@@ -1,12 +1,9 @@
 ---
 layout: post
-date: 2025-07-07 00:00:00 +0000
 title: Custom Linux Welcome Message Guide
-subtitle: This guide walks you through setting up a personalized welcome message that appears when you log into your terminal or connect via SSH.
+description: This guide walks you through setting up a personalized welcome message that appears when you log into your terminal or connect via SSH.
 tags: [linux, how-to]
 comments: true
-style: fill
-color: primary
 thumbnail-img: /assets/img/fastfetch.png
 ---
 

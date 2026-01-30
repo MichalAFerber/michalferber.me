@@ -1,12 +1,9 @@
 ---
 layout: post
-date: 2010-03-21 00:00:00 +0000
-title: Integrating Emergency Alerts for Better ROI
-subtitle: "Speaking at Disaster Recovery Journal | Spring World 2010"
+title: "Integrating Emergency Alerts for Better ROI"
+description: "Speaking at Disaster Recovery Journal | Spring World 2010"
 tags: [emergency-notification, emergency-communications]
 comments: true
-style: fill
-color: warning
 thumbnail-img: /assets/img/mcleod-health-campus.jpg
 ---
 

@@ -1,12 +1,9 @@
 ---
 layout: post
-date: 2025-07-15 00:00:00 +0000
 title: "Teeth Reflexology: The Sacred Map in Your Mouth"
-subtitle: Exploring the ancient connections between your teeth, organs, emotions, and ancestral memory through the lens of reflexology.
+description: Exploring the ancient connections between your teeth, organs, emotions, and ancestral memory through the lens of reflexology.
 tags: [teeth-reflexology, holistic-health, chinese-medicine, dental-health, energy-healing]
 comments: true
-style: fill
-color: info
 thumbnail-img: /assets/img/teeth-reflexology-guide.jpg
 ---
 

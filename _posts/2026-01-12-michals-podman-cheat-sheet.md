@@ -1,15 +1,13 @@
 ---
+layout: post
 title: "Michal's Podman Cheat Sheet: Docker Alternative"
 description: "Complete Podman cheat sheet with commands, rootless containers, pod management, and Docker Compose compatibility."
 tags: [podman, docker, containers, container-engine, homelab, self-hosted, linux, devops, macos, windows, rootless-containers, oci, kubernetes, pods, virtualization, systemd, guide, tutorial, cheat-sheet, docker-alternative, containerization]
 comments: true
 thumbnail-img: /assets/img/podman.png
-
 ---
 
 ![Podman Logo]({{ "/assets/img/podman.png" | relative_url | absolute_url }})
-
-## Michal's Podman Cheat Sheet: Docker Alternative
 
 Hey everyone, Michal here! Today, I want to share my journey into the world of Podman—a powerful, daemonless container engine that's quickly becoming a go-to for many, including myself. My personal dive into Podman came out of a very specific need: getting [BmuS (Back-Me-Up Scotty)](https://www.back-me-up-scotty.com/) up and running on my various home devices. I wanted to manage a single container without the overhead of Docker Desktop on my trusty Mac mini, and Podman seemed like the perfect fit. So far, it's been an excellent experience!
 

@@ -1,12 +1,9 @@
 ---
 layout: post
-date: 2023-03-22 00:00:00 +0000
 title: "Microsoft 365 Certified: Teams Administrator Associate"
-subtitle: "MS-700: Managing Microsoft Teams."
+description: "MS-700: Managing Microsoft Teams."
 tags: [microsoft-certification, teams]
 comments: true
-style: fill
-color: secondary
 thumbnail-img: /assets/badges/microsoft-365-teams-administrator-associate.avif
 ---
 

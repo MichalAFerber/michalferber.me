@@ -1,12 +1,9 @@
 ---
 layout: post
-date: 2024-01-21 00:00:00 +0000
 title: MailerLite Certified Expert
-subtitle: "Certified MailerLite Expert helping businesses boost engagement, drive sales, and maximize ROI through targeted, effective email marketing campaigns."
+description: "Certified MailerLite Expert helping businesses boost engagement, drive sales, and maximize ROI through targeted, effective email marketing campaigns."
 tags: [mailerlite, email-marketing, transactional-emails, email-apis]
 comments: true
-style: fill
-color: secondary
 thumbnail-img: /assets/img/MailerLite-logo.png
 ---
 

@@ -5,12 +5,9 @@ description: "My go-to tool for implementing the 3-2-1 backup strategy"
 tags: [rsync, scp, rclone, backup, 3-2-1-backup, sync, linux, macos, automation, cron, google-drive, wasabi, synology, proxmox, time-machine, data-protection, homelab, self-hosted, system-administration, devops, data-sync, cheat-sheet, guide, tutorial, file-transfer, ssh, nas]
 comments: true
 thumbnail-img: /assets/img/rsync.jpg
-
 ---
 
 ![rsync Logo](/assets/img/rsync.jpg)
-
-## Michal's rsync Cheat Sheet: Reliable Backups & Sync
 
 Hey everyone, Michal here! Today I want to share one of the most essential tools in my homelab arsenal: **rsync**. If you're serious about protecting your data and implementing a proper backup strategy, rsync is the battle-tested workhorse that should be in your toolkit. After years of managing backups for both personal and professional systems, I've settled on rsync as my primary sync and backup tool—and for good reason.
 

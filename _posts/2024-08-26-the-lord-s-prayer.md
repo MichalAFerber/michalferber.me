@@ -1,12 +1,9 @@
 ---
 layout: post
-date: 2024-08-26 00:00:00 +0000
 title: The Lord's Prayer
-subtitle: "The Aramaic Prayer of Jesus (Original transliteration and translation from the Peshitta (Syriac-Aramaic)"
+description: "The Aramaic Prayer of Jesus (Original transliteration and translation from the Peshitta (Syriac-Aramaic)"
 tags: [religion, theology, god, prayer]
 comments: true
-style: fill
-color: light
 thumbnail-img: /assets/img/the-lords-prayer.jpg
 ---
 

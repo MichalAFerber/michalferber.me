@@ -1,12 +1,9 @@
 ---
 layout: post
-date: 2019-12-23 00:00:00 +0000
 title: "Stars We Lost in 2019"
-subtitle: Year in review
+description: Year in review
 tags: [jesus, god, holy-spirit, christianity, hollywood, stars, celebrities, "2019"]
 comments: true
-style: fill
-color: success
 thumbnail-img: /assets/img/year-in-review-2019.png
 ---
 

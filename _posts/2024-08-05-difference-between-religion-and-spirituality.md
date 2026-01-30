@@ -1,12 +1,9 @@
 ---
 layout: post
-date: 2024-08-05 00:00:00 +0000
 title: Difference between religion and spirituality
-subtitle: Or at least my take on it.
+description: Or at least my take on it.
 tags: [religion, theology, god]
 comments: true
-style: fill
-color: light
 thumbnail-img: /assets/img/religious-faith.jpg
 ---
 

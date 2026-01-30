@@ -1,12 +1,9 @@
 ---
 layout: post
-date: 2025-08-02 00:00:00 +0000
 title: My Programming Journey Began With BASIC
-subtitle: How a TLDR Web Dev article sparked a trip down memory lane to where my programming journey began—with BASIC.
+description: How a TLDR Web Dev article sparked a trip down memory lane to where my programming journey began—with BASIC.
 tags: [programming, history, basic, tech-industry, memoir]
 comments: true
-style: fill
-color: success
 thumbnail-img: /assets/img/ca-clipper.png
 ---
 

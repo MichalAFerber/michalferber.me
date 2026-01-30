@@ -1,12 +1,9 @@
 ---
 layout: post
-date: 2016-07-16 00:00:00 +0000
 title: An open letter to Christians everywhere (including me)
-subtitle: From the heart
+description: From the heart
 tags: [jesus, god, holy-spirit, christianity]
 comments: true
-style: fill
-color: success
 thumbnail-img: /assets/img/letter.jpg
 ---
 

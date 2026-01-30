@@ -1,12 +1,9 @@
 ---
 layout: post
-date: 2025-07-30 00:00:00 +0000
 title: "US Geoengineering Projects — Active & Hidden Efforts"
-subtitle: A breakdown of known U.S.-based geoengineering projects, including public research, proposed field tests, and the possibility of classified programs.
+description: A breakdown of known U.S.-based geoengineering projects, including public research, proposed field tests, and the possibility of classified programs.
 tags: [geoengineering, climate, solar-radiation-management, usa, research, climate-change]
 comments: true
-style: fill
-color: info
 thumbnail-img: /assets/img/us-geoengineering-projects.png
 ---
 

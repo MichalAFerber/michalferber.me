@@ -1,12 +1,9 @@
 ---
 layout: post
-date: 2019-12-26 00:00:00 +0000
 title: "September 2 – Part 1"
-subtitle: A personal story
+description: A personal story
 tags: [jesus, god, holy-spirit, christianity]
 comments: true
-style: fill
-color: success
 thumbnail-img: /assets/img/road-path.jpg
 ---
 

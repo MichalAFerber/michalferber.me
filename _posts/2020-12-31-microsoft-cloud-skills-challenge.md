@@ -1,12 +1,9 @@
 ---
 layout: post
-date: 2020-12-31 00:00:00 +0000
 title: 30-day Microsoft Cloud Skills Challenge
-subtitle: "The AZ-104: Microsoft Azure Administrator exam evaluates your skills in administering Azure environments and implementing core solutions on the Azure platform."
+description: "The AZ-104: Microsoft Azure Administrator exam evaluates your skills in administering Azure environments and implementing core solutions on the Azure platform."
 tags: [microsoft, azure, az-104]
 comments: true
-style: fill
-color: secondary
 thumbnail-img: /assets/img/csc-hero.jpg
 ---
 

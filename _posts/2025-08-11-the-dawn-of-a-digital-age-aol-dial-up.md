@@ -1,12 +1,9 @@
 ---
 layout: post
-date: 2025-08-11 00:00:00 +0000
 title: "The Dawn of a Digital Age: AOL & Dial-Up"
-subtitle: A look back at AOL’s dial-up legacy, its rivals, and why 56k internet survived decades past broadband—until its final goodbye in 2025.
+description: A look back at AOL's dial-up legacy, its rivals, and why 56k internet survived decades past broadband—until its final goodbye in 2025.
 tags: [aol, dial-up, internet-history, compuserve, earthlink, msn, prodigy, 56k-modem, broadband, dsl, retro-tech, tech-nostalgia]
 comments: true
-style: fill
-color: primary
 thumbnail-img: /assets/img/aol.png
 ---
 

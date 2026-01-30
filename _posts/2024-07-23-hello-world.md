@@ -1,12 +1,9 @@
 ---
 layout: post
-date: 2024-07-23 00:00:00 +0000
 title: Hello World!
-subtitle: Everyone has to have one of these right?
+description: Everyone has to have one of these right?
 tags: [programming, code]
 comments: true
-style: fill
-color: secondary
 thumbnail-img: /assets/img/hello-world.jpg
 ---
 
