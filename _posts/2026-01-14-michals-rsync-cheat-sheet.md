@@ -2,7 +2,7 @@
 layout: post
 title: "Michal's rsync Cheat Sheet: Reliable Backups & Sync"
 description: "My go-to tool for implementing the 3-2-1 backup strategy"
-tags: [rsync, scp, rclone, backup, 3-2-1-backup, sync, Linux, macOS, automation, cron, Google-Drive, Wasabi, Synology, Proxmox, Time-Machine, data-protection, homelab, self-hosted, system-administration, DevOps, data-sync, cheat-sheet, guide, tutorial, file-transfer, SSH, NAS]
+tags: [rsync, scp, rclone, backup, 3-2-1-backup, sync, linux, macos, automation, cron, google-drive, wasabi, synology, proxmox, time-machine, data-protection, homelab, self-hosted, system-administration, devops, data-sync, cheat-sheet, guide, tutorial, file-transfer, ssh, nas]
 comments: true
 thumbnail-img: /assets/img/rsync.jpg
 

@@ -9,7 +9,6 @@ title: Tags
   <hr style="margin: 0 0 40px 0; border-color: #44434d;">
 
   <div class="tag-list">
-    <h2 style="text-align: center; margin-bottom: 30px;">Interactive Tag Cloud</h2>
     <div id="tags-cloud-3d" class="tags-cloud-3d">
       {% for tag in all_tags %}
       <a href="#{{ tag[0] | slugify }}" class="tag-cloud-item" data-weight="{{ tag[1] | size }}">
@@ -18,8 +17,6 @@ title: Tags
       {% endfor %}
     </div>
   </div>
-
-  <hr style="margin: 40px 0; border-color: #44434d;">
 
   <div class="posts-by-tag">
     {% for tag in all_tags %}
