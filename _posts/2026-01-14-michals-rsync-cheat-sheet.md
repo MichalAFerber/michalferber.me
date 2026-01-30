@@ -26,7 +26,6 @@ You might be wondering: "Michal, why rsync instead of rclone or scp?" The truth 
 
 | Feature | rsync | rclone | scp |
 |---------|-------|--------|-----|
-
 | **Primary Use Case** | Local & network sync/backup | Cloud storage sync | One-time file transfers |
 | **Transfer Method** | Delta-transfer (only changes) | Full file or chunked | Full file copy |
 | **Best For** | Recurring backups, large datasets | Cloud storage, remote filesystems | Quick ad-hoc transfers |
@@ -264,7 +263,6 @@ Here are all the essential rsync commands I use, organized by use case.
 
 | Command | Description |
 |---------|-------------|
-
 | `rsync -av /src/ /dst/` | Basic sync (archive mode, verbose) |
 | `rsync -avh /src/ /dst/` | Sync with human-readable sizes |
 | `rsync -avh --progress /src/ /dst/` | Show transfer progress |
@@ -276,7 +274,6 @@ Here are all the essential rsync commands I use, organized by use case.
 
 | Command | Description |
 |---------|-------------|
-
 | `rsync -avhn /src/ /dst/` | Dry run - see what would change |
 | `rsync -avhc /src/ /dst/` | Compare using checksums (slower but accurate) |
 | `rsync -avh --stats /src/ /dst/` | Show detailed transfer statistics |
@@ -314,7 +311,6 @@ rsync -avh --include='docs/***' --exclude='*' /src/ /dst/
 
 | Command | Description |
 |---------|-------------|
-
 | `rsync -avh --bwlimit=1000 /src/ /dst/` | Limit bandwidth to 1000 KB/s |
 | `rsync -avzh /src/ user@host:/dst/` | Compress during transfer (-z) |
 | `rsync -avh --partial /src/ /dst/` | Keep partially transferred files |
@@ -348,7 +344,6 @@ For quick ad-hoc file transfers when you don't need rsync's sync capabilities:
 
 | Command | Description |
 |---------|-------------|
-
 | `scp file.txt user@host:/path/` | Copy file to remote |
 | `scp user@host:/path/file.txt ./` | Copy file from remote |
 | `scp -r /folder/ user@host:/path/` | Copy entire folder recursively |
@@ -411,7 +406,6 @@ This creates hard links for unchanged files, so you get multiple "full" backups 
 
 | Command | Description |
 |---------|-------------|
-
 | `rsync -avh --log-file=sync.log /src/ /dst/` | Log to file |
 | `rsync -avh --stats /src/ /dst/` | Show transfer statistics |
 | `rsync -avhP /src/ /dst/` | Show progress (shorthand for --progress --partial) |
@@ -421,7 +415,6 @@ This creates hard links for unchanged files, so you get multiple "full" backups 
 
 | Command | Description |
 |---------|-------------|
-
 | `rsync -avh --delete-after /src/ /dst/` | Delete files after transfer (safer) |
 | `rsync -avh --backup --backup-dir=/backup/old/ /src/ /dst/` | Keep deleted/replaced files |
 | `rsync -avh --ignore-existing /src/ /dst/` | Skip files that exist in destination |
