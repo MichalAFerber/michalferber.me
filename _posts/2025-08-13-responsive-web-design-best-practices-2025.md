@@ -180,7 +180,7 @@ integrity="sha384-…" crossorigin="anonymous">
 - **Demo page**: `index.md` shows `<picture>`/`srcset` and background `image-set()` patterns.
 
 | **Live demo & repo:**  
-| Starter → [https://michalferber.me/responsive-starter-repo/](https://michalferber.me/responsive-starter-repo/)  
+| Starter → [https://michalaferber.github.io/responsive-starter-repo/](https://michalaferber.github.io/responsive-starter-repo/)
 | GitHub → [https://github.com/MichalAFerber/responsive-starter-repo](https://github.com/MichalAFerber/responsive-starter-repo)
 
 ### Final thought
