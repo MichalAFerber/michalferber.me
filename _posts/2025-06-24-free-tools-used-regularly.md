@@ -5,6 +5,8 @@ description: A curated list of free tools and services I use daily, shaped by ov
 tags: [free-tools, open-source, foss, productivity, web-tools]
 comments: true
 thumbnail-img: /assets/img/macbook-pro-with-airpods.jpg
+redirect_from:
+  - /blog/free-tools-used-regularly
 ---
 
 ![macbook pro]({{ "/assets/img/macbook-pro-with-airpods.jpg" | relative_url | absolute_url }})

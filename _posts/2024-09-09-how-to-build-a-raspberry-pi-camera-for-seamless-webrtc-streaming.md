@@ -5,6 +5,8 @@ description: Using the Pi Zero 2 W and the Camera Module 3
 tags: [raspberry-pi, linux, how-to]
 comments: true
 thumbnail-img: /assets/img/raspberry-pis.jpg
+redirect_from:
+  - /blog/how-to-build-a-raspberry-pi-camera-for-seamless-webrtc-streaming
 ---
 
 ![Raspberry Pi models]({{ "/assets/img/raspberry-pis.jpg" | relative_url | absolute_url }})

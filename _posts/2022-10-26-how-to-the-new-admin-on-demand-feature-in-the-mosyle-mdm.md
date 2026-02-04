@@ -5,6 +5,8 @@ description: Learn how to set up and use the Admin On-Demand feature in Mosyle M
 tags: [how-to, mdm, mosyle]
 comments: true
 thumbnail-img: /assets/img/mosyle-admin-on-demand.png
+redirect_from:
+  - /blog/how-to-the-new-admin-on-demand-feature-in-the-mosyle-mdm
 ---
 
 ![Mosyle Certified Administrator]({{ "/assets/img/mosyle-admin-on-demand.png" | relative_url | absolute_url }})

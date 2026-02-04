@@ -5,6 +5,8 @@ description: "Speaking at Disaster Recovery Journal | Spring World 2010"
 tags: [emergency-notification, emergency-communications]
 comments: true
 thumbnail-img: /assets/img/mcleod-health-campus.jpg
+redirect_from:
+  - /blog/integrating-emergency-notification-into-your-everyday-communications-strategy
 ---
 
 ![McLeod Health]({{ "/assets/img/mcleod-health-campus.jpg" | relative_url | absolute_url }})

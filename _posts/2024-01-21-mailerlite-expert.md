@@ -5,6 +5,8 @@ description: "Certified MailerLite Expert helping businesses boost engagement, d
 tags: [mailerlite, email-marketing, transactional-emails, email-apis]
 comments: true
 thumbnail-img: /assets/img/MailerLite-logo.png
+redirect_from:
+  - /blog/mailerlite-expert
 ---
 
 ![MailerLite certified expert logo badge]({{ "/assets/img/MailerLite-logo.png" | relative_url | absolute_url }})

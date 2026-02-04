@@ -5,6 +5,9 @@ description: Everyone has to have one of these right?
 tags: [programming, code]
 comments: true
 thumbnail-img: /assets/img/hello-world.jpg
+redirect_from:
+  - /blog/hello-world
+  - /2024-07-22-hello-world/
 ---
 
 ![Hello World!]({{ "/assets/img/hello-world.jpg" }})

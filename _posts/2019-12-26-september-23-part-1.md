@@ -5,6 +5,8 @@ description: A personal story
 tags: [jesus, god, holy-spirit, christianity]
 comments: true
 thumbnail-img: /assets/img/road-path.jpg
+redirect_from:
+  - /blog/september-23-part-1
 ---
 
 ![Road Path]({{ "/assets/img/road-path.jpg" | relative_url | absolute_url }})

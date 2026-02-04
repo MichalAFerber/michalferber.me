@@ -5,6 +5,8 @@ description: "This certificate deems the recipient competent and skilled in Mosy
 tags: [mdm, mobile-device-manager, endpoint-management, apple, ios, macos]
 comments: true
 thumbnail-img: /assets/badges/mosyle.avif
+redirect_from:
+  - /blog/mosyle-certified-admin
 ---
 
 ![Mosyle Certified Administrator badge]({{ "/assets/badges/mosyle.avif" | relative_url | absolute_url }})

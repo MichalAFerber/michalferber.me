@@ -5,6 +5,9 @@ description: "Responsive design in 2025: content-based breakpoints, fluid layout
 tags: [responsive, css, media-queries, images, performance, svg, bootstrap, tailwind]
 comments: true
 thumbnail-img: /assets/img/website-code.avif
+redirect_from:
+  - /blog/responsive-web-design-best-practices-2025
+  - /2025-08-13-responsive-web-design-best-practices-2025
 ---
 
 ![Website Code]({{ "/assets/img/website-code.avif" | relative_url | absolute_url }})

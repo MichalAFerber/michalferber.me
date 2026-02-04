@@ -5,6 +5,8 @@ description: This guide walks you through setting up a personalized welcome mess
 tags: [linux, how-to]
 comments: true
 thumbnail-img: /assets/img/fastfetch.png
+redirect_from:
+  - /blog/custom-linux-welcome-message
 ---
 
 [![fastfetch-cli]({{ "/assets/img/fastfetch.png" | relative_url | absolute_url }})](https://github.com/fastfetch-cli/fastfetch)

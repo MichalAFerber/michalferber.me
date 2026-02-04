@@ -5,6 +5,8 @@ description: Concept design for an AI-powered payment system using Raspberry Pi 
 tags: [visionpay, raspberry-pi-5, hailo-ai, blockchain, ai-payments, computer-vision]
 comments: true
 thumbnail-img: /assets/img/raspberry-pi-ai-hat.jpg
+redirect_from:
+  - /2025-08-11-visionpay_ai_powered_payments/
 ---
 
 ![Raspberry Pi AI Hat]({{ "/assets/img/raspberry-pi-ai-hat.jpg" | relative_url | absolute_url }})

@@ -5,6 +5,8 @@ description: "The AZ-104: Microsoft Azure Administrator exam evaluates your skil
 tags: [microsoft, azure, az-104]
 comments: true
 thumbnail-img: /assets/img/csc-hero.jpg
+redirect_from:
+  - /blog/microsoft-cloud-skills-challenge
 ---
 
 ![CSC Hero]({{ "/assets/img/csc-hero.jpg" | relative_url | absolute_url }})

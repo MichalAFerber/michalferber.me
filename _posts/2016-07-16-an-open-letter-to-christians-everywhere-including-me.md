@@ -5,6 +5,8 @@ description: From the heart
 tags: [jesus, god, holy-spirit, christianity]
 comments: true
 thumbnail-img: /assets/img/letter.jpg
+redirect_from:
+  - /blog/an-open-letter-to-christians-everywhere-including-me
 ---
 
 ![Letter]({{ "/assets/img/letter.jpg" | relative_url | absolute_url }})

@@ -5,6 +5,8 @@ description: Learn how to remove and exclude .DS_Store files from Git on macOS t
 tags: [git, github, macos, how-to, programming]
 comments: true
 thumbnail-img: /assets/img/gitignore.png
+redirect_from:
+  - /blog/remove-and-exclude-ds_store-files-on-macos-with-git
 ---
 
 ![.gitignore]({{ "/assets/img/gitignore.png" | relative_url | absolute_url }})

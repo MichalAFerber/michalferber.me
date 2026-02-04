@@ -5,6 +5,8 @@ description: "The SSCA® SIP training program has been the defacto certification
 tags: [sip, voip, ip-phone-telecommunications, sip-trunking, stir/shaken]
 comments: true
 thumbnail-img: /assets/badges/sip-ssca-elite.avif
+redirect_from:
+  - /2020-01-01-sip-ssca-certification/
 ---
 
 ![SIP SSCA Badge]({{ "/assets/badges/sip-ssca-elite.avif" | relative_url | absolute_url }})

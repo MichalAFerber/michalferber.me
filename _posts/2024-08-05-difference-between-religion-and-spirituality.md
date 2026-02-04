@@ -5,6 +5,8 @@ description: Or at least my take on it.
 tags: [religion, theology, god]
 comments: true
 thumbnail-img: /assets/img/religious-faith.jpg
+redirect_from:
+  - /blog/difference-between-religion-and-spirituality
 ---
 
 ![Religious Faith]({{ "/assets/img/religious-faith.jpg" | relative_url | absolute_url }})

@@ -5,6 +5,8 @@ description: How the King James Bible shaped culture, its missing books, and the
 tags: [history, bible, king-james, tyndale, english-language, lost-books]
 comments: true
 thumbnail-img: /assets/img/greek_manuscript.jpg
+redirect_from:
+  - /blog/king-james-bible-political-influence-missing-books
 ---
 
 ![Greek Manuscript]({{ "/assets/img/greek_manuscript.jpg" | relative_url | absolute_url }})

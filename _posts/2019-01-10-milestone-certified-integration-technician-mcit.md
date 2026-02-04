@@ -5,6 +5,8 @@ description: "Milestone Integration Technicians install and configure moderately
 tags: [milestone-systems, xprotect, vms, video-management-system, ip-cameras, cctv]
 comments: true
 thumbnail-img: /assets/badges/milestone-certified-integration-technician-mcit.avif
+redirect_from:
+  - /blog/milestone-certified-integration-technician-mcit
 ---
 
 ![MCIT Badge]({{ "/assets/badges/milestone-certified-integration-technician-mcit.avif" | relative_url | absolute_url }})

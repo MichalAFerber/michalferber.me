@@ -5,6 +5,8 @@ description: Year in review
 tags: [jesus, god, holy-spirit, christianity, hollywood, stars, celebrities, "2019"]
 comments: true
 thumbnail-img: /assets/img/year-in-review-2019.png
+redirect_from:
+  - /blog/stars-we-lost-in-2019
 ---
 
 ![Year in review]({{ "/assets/img/year-in-review-2019.png" | relative_url | absolute_url }})

@@ -5,6 +5,8 @@ description: "The Aramaic Prayer of Jesus (Original transliteration and translat
 tags: [religion, theology, god, prayer]
 comments: true
 thumbnail-img: /assets/img/the-lords-prayer.jpg
+redirect_from:
+  - /blog/the-lord-s-prayer
 ---
 
 ![The Lord's Prayer]({{ "/assets/img/the-lords-prayer.jpg" | relative_url | absolute_url }})

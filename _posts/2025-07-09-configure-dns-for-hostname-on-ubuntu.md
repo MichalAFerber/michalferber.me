@@ -5,6 +5,8 @@ description: Configure Ubuntu for mDNS to ping/SSH using hostname.local (e.g., y
 tags: [linux, how-to, dns]
 comments: true
 thumbnail-img: /assets/img/systemctl_status_avahi-daemon.png
+redirect_from:
+  - /blog/configure-dns-for-hostname-on-ubuntu
 ---
 
 ![avahi-daemon]({{ "/assets/img/systemctl_status_avahi-daemon.png" | relative_url | absolute_url }})

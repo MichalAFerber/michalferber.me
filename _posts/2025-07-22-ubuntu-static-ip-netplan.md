@@ -5,6 +5,8 @@ description: Using the Ubuntu (Netplan) to manage your ip address
 tags: [raspberry-pi, linux, how-to, ubuntu, networking, netplan, static-ip, dns]
 comments: true
 thumbnail-img: /assets/img/ubuntu-vector.png
+redirect_from:
+  - /blog/ubuntu-static-ip-netplan
 ---
 
 [![Ookla-cli]({{ "/assets/img/ubuntu-vector.png" | relative_url | absolute_url }})](https://documentation.ubuntu.com/server/explanation/networking/about-netplan/)

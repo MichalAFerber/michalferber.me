@@ -5,6 +5,8 @@ description: Using the Ookla Speedtest CLI to perform speedtest
 tags: [raspberry-pi, linux, how-to, ubuntu, speedtest, networking, cli, automation]
 comments: true
 thumbnail-img: /assets/img/ookla-cli.png
+redirect_from:
+  - /blog/ubuntu-speedtest-cli
 ---
 
 [![Ookla-cli]({{ "/assets/img/ookla-cli.png" | relative_url | absolute_url }})](https://www.speedtest.net/apps/cli)

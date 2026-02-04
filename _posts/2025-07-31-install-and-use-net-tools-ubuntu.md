@@ -5,6 +5,9 @@ description: Install and use the classic net-tools package on Ubuntu to get comm
 tags: [raspberry-pi, linux, how-to, ubuntu, networking, cli, tools]
 comments: true
 thumbnail-img: /assets/img/ubuntu-sudo.jpg
+redirect_from:
+  - /blog/install-and-use-net-tools-ubuntu
+  - /2025-07-30-install-and-use-net-tools-ubuntu/
 ---
 
 ![Ubuntu Sudo]({{ "/assets/img/ubuntu-sudo.jpg" | relative_url | absolute_url }})
