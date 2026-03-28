@@ -1,13 +1,13 @@
 ---
 layout: post
-title: The Hidden History of the Strawman
-description: An alternate history exploring the idea of the Strawman, a legal fiction that turned individuals into collateral, and the awakening that followed.
+title: "The Hidden History of the Strawman"
+description: "An alternate history exploring the idea of the Strawman, a legal fiction that turned individuals into collateral, and the awakening that followed."
 tags: [alternate-history, sovereignty, strawman, law, blockchain]
 comments: true
-thumbnail-img: /assets/img/illuminati.jpg
+thumbnail-img: /assets/img/illuminati.webp
 ---
 
-![Illuminati]({{ "/assets/img/illuminati.jpg" | relative_url | absolute_url }})
+![Symbolic illustration of the Strawman legal fiction concept]({{ "/assets/img/illuminati.webp" | relative_url | absolute_url }})
 
 ##### An Alternate History of Sovereignty Lost and Found
 

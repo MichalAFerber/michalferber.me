@@ -1,16 +1,16 @@
 ---
 layout: post
-title: How To Install And Use Net Tools In Ubuntu
-description: Install and use the classic net-tools package on Ubuntu to get commands like ifconfig, netstat, route, and more.
+title: "How To Install And Use Net Tools In Ubuntu"
+description: "Install and use the classic net-tools package on Ubuntu to get commands like ifconfig, netstat, route, and more."
 tags: [raspberry-pi, linux, how-to, ubuntu, networking, cli, tools]
 comments: true
-thumbnail-img: /assets/img/ubuntu-sudo.jpg
+thumbnail-img: /assets/img/ubuntu-sudo.webp
 redirect_from:
   - /blog/install-and-use-net-tools-ubuntu
   - /2025-07-30-install-and-use-net-tools-ubuntu/
 ---
 
-![Ubuntu Sudo]({{ "/assets/img/ubuntu-sudo.jpg" | relative_url | absolute_url }})
+![Ubuntu Sudo]({{ "/assets/img/ubuntu-sudo.webp" | relative_url | absolute_url }})
 
 The `net-tools` package contains classic networking commands like `ifconfig`, `netstat`, `route`, `arp`, and `hostname`.  
 While newer tools like `ip` (from the `iproute2` package) are now the default, some scripts and tutorials still rely on these older commands.

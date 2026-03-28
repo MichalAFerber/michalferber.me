@@ -5,10 +5,9 @@ description: "Complete your TrueNAS setup with automated backups, HTTPS, and sec
 tags: [truenas, backup, homelab, nas, zfs, https, security]
 comments: true
 thumbnail-img: /assets/img/truenas.avif
-
 ---
 
-![TrueNAS](/assets/img/truenas.avif)
+![TrueNAS Logo]({{ "/assets/img/truenas.avif" | relative_url | absolute_url }})
 
 You've got the hard parts done—TrueNAS is installed, your pool is configured, and the basics are working. Now let's finish the essentials in three focused areas: getting backups INTO TrueNAS from your machines, adding HTTPS to the web interface, and a quick hardening checklist so you don't get caught out later.
 

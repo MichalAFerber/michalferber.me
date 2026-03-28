@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "September 2 – Part 1"
-description: A personal story
+description: "A personal story"
 tags: [jesus, god, holy-spirit, christianity]
 comments: true
-thumbnail-img: /assets/img/road-path.jpg
+thumbnail-img: /assets/img/road-path.webp
 redirect_from:
   - /blog/september-23-part-1
 ---
 
-![Road Path]({{ "/assets/img/road-path.jpg" | relative_url | absolute_url }})
+![A winding road symbolizing a personal journey]({{ "/assets/img/road-path.webp" | relative_url | absolute_url }})
 
 My personal life has taken a lot of twists and turns. And as much as I have tried to control everything and be perfect in everything, I have found out the hard way that just isn’t how life works. I have also found that it’s the exact opposite of following Jesus. To follow Him, we have to lean on Him and seek His will. It has taken me 41 years to get where I am today.
 

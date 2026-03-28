@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "King James Bible: Political Influence and Missing Books"
-description: How the King James Bible shaped culture, its missing books, and the politics behind its creation
+description: "How the King James Bible shaped culture, its missing books, and the politics behind its creation"
 tags: [history, bible, king-james, tyndale, english-language, lost-books]
 comments: true
-thumbnail-img: /assets/img/greek_manuscript.jpg
+thumbnail-img: /assets/img/greek_manuscript.webp
 redirect_from:
   - /blog/king-james-bible-political-influence-missing-books
 ---
 
-![Greek Manuscript]({{ "/assets/img/greek_manuscript.jpg" | relative_url | absolute_url }})
+![Greek Manuscript]({{ "/assets/img/greek_manuscript.webp" | relative_url | absolute_url }})
 
 Every now and then, I like to dive into the history behind things we often take for granted. Recently, I found myself reading about the origins of the **King James Bible**—a book that has shaped English-speaking culture more than almost any other. It reminded me just how much of our language, literature, and even everyday phrases come from those early translations.
 

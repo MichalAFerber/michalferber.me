@@ -1,15 +1,15 @@
 ---
 layout: post
-title: How to Remove and Exclude .DS_Store Files on macOS with Git
-description: Learn how to remove and exclude .DS_Store files from Git on macOS to keep your repository clean. Step-by-step guide!
+title: "How to Remove and Exclude .DS_Store Files on macOS with Git"
+description: "Learn how to remove and exclude .DS_Store files from Git on macOS to keep your repository clean. Step-by-step guide!"
 tags: [git, github, macos, how-to, programming]
 comments: true
-thumbnail-img: /assets/img/gitignore.png
+thumbnail-img: /assets/img/gitignore.webp
 redirect_from:
   - /blog/remove-and-exclude-ds_store-files-on-macos-with-git
 ---
 
-![.gitignore]({{ "/assets/img/gitignore.png" | relative_url | absolute_url }})
+![.gitignore]({{ "/assets/img/gitignore.webp" | relative_url | absolute_url }})
 
 If you're a macOS user working with Git, you've likely encountered `.DS_Store` files. These hidden files, created by Finder to store folder-specific metadata, can sneak into your Git repository and clutter your commits. In this post, I'll guide you through the steps to remove existing `.DS_Store` files from your repository and prevent them from being tracked in the future.
 

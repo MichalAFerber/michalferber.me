@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Install and Automate Ookla Speedtest CLI on Ubuntu
-description: Using the Ookla Speedtest CLI to perform speedtest
+title: "Install and Automate Ookla Speedtest CLI on Ubuntu"
+description: "Using the Ookla Speedtest CLI to perform speedtest"
 tags: [raspberry-pi, linux, how-to, ubuntu, speedtest, networking, cli, automation]
 comments: true
-thumbnail-img: /assets/img/ookla-cli.png
+thumbnail-img: /assets/img/ookla-cli.webp
 redirect_from:
   - /blog/ubuntu-speedtest-cli
 ---
 
-[![Ookla-cli]({{ "/assets/img/ookla-cli.png" | relative_url | absolute_url }})](https://www.speedtest.net/apps/cli)
+[![Ookla-cli]({{ "/assets/img/ookla-cli.webp" | relative_url | absolute_url }})](https://www.speedtest.net/apps/cli)
 
 The **Ookla Speedtest CLI** lets you run the same speedtest.net benchmarks directly from your terminal. Perfect for servers or automated monitoring.
 
@@ -51,7 +51,7 @@ On first run, type `YES` to accept the license. Sample output:
      Upload: 37.42 Mbps
 ```
 
-![Screenshot]({{ "/assets/img/ookla_cli_install_and_use.png" | relative_url | absolute_url }})
+![Ookla Speedtest CLI installation and usage output on Ubuntu]({{ "/assets/img/ookla_cli_install_and_use.webp" | relative_url | absolute_url }})
 
 ## Automating with Cron
 

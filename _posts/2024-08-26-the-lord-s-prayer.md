@@ -1,15 +1,15 @@
 ---
 layout: post
-title: The Lord's Prayer
+title: "The Lord's Prayer"
 description: "The Aramaic Prayer of Jesus (Original transliteration and translation from the Peshitta (Syriac-Aramaic)"
 tags: [religion, theology, god, prayer]
 comments: true
-thumbnail-img: /assets/img/the-lords-prayer.jpg
+thumbnail-img: /assets/img/the-lords-prayer.webp
 redirect_from:
   - /blog/the-lord-s-prayer
 ---
 
-![The Lord's Prayer]({{ "/assets/img/the-lords-prayer.jpg" | relative_url | absolute_url }})
+![The Lord's Prayer]({{ "/assets/img/the-lords-prayer.webp" | relative_url | absolute_url }})
 
 > O Birther! Father-Mother of the Cosmos, you create all that moves in light.
 > Focus your light within us — make it useful: as the rays of a beacon show the way.

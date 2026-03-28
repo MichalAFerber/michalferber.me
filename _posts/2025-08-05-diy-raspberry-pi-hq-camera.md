@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "DIY Raspberry Pi HQ Camera Build with Pi Zero WH"
-description: Build a portable Raspberry Pi HQ Camera setup with live display, battery power, and customizable software.
+description: "Build a portable Raspberry Pi HQ Camera setup with live display, battery power, and customizable software."
 tags: [raspberry-pi, hq-camera, diy, photography, maker, pi-zero]
 comments: true
-thumbnail-img: /assets/img/raspberry-pi-zero-pro-plate-for-hq-camera.jpg
+thumbnail-img: /assets/img/raspberry-pi-zero-pro-plate-for-hq-camera.webp
 ---
 
-![Raspberry Pi HQ Camera]({{ "/assets/img/raspberry-pi-zero-pro-plate-for-hq-camera.jpg" | relative_url | absolute_url }})
+![Raspberry Pi HQ Camera]({{ "/assets/img/raspberry-pi-zero-pro-plate-for-hq-camera.webp" | relative_url | absolute_url }})
 
 This project walks you through building a **portable, high-quality camera** using the Raspberry Pi HQ Camera module, Pi Zero WH, and a compact display. The result is a battery-powered camera system with a live view, perfect for experimentation, photography, and maker projects.
 

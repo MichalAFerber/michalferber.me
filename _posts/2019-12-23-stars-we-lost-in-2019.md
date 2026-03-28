@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "Stars We Lost in 2019"
-description: Year in review
-tags: [jesus, god, holy-spirit, christianity, hollywood, stars, celebrities, "2019"]
+description: "Year in review"
+tags: [jesus, god, holy-spirit, christianity, hollywood, stars, celebrities, 2019]
 comments: true
-thumbnail-img: /assets/img/year-in-review-2019.png
+thumbnail-img: /assets/img/year-in-review-2019.webp
 redirect_from:
   - /blog/stars-we-lost-in-2019
 ---
 
-![Year in review]({{ "/assets/img/year-in-review-2019.png" | relative_url | absolute_url }})
+![Year in review]({{ "/assets/img/year-in-review-2019.webp" | relative_url | absolute_url }})
 
 I read an article today on Fox News entitled “Stars We Lost in 2019”. It listed 157 celebrities that died in 2019. Some were household names like Robert Forster who played Bud Baxter on Last Man Standing. Another was legendary wrestling announcer “Mean” Gene Okerlund who died at the age of 76. Okerlund was one of the most recognizable names in sports entertainment, with his career spanning the American Wrestling Association, World Championship Wrestling, and World Wrestling Entertainment.
 

@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "VisionPay: AI-Powered Payments"
-description: Concept design for an AI-powered payment system using Raspberry Pi 5, Hailo AI module, camera, and blockchain integration.
+description: "Concept design for an AI-powered payment system using Raspberry Pi 5, Hailo AI module, camera, and blockchain integration."
 tags: [visionpay, raspberry-pi-5, hailo-ai, blockchain, ai-payments, computer-vision]
 comments: true
-thumbnail-img: /assets/img/raspberry-pi-ai-hat.jpg
+thumbnail-img: /assets/img/raspberry-pi-ai-hat.webp
 redirect_from:
   - /2025-08-11-visionpay_ai_powered_payments/
 ---
 
-![Raspberry Pi AI Hat]({{ "/assets/img/raspberry-pi-ai-hat.jpg" | relative_url | absolute_url }})
+![Raspberry Pi AI Hat]({{ "/assets/img/raspberry-pi-ai-hat.webp" | relative_url | absolute_url }})
 
 **VisionPay** is a concept project that merges AI, blockchain, and computer vision into a secure and intelligent payment platform. It leverages the **Raspberry Pi 5**, a **Hailo AI acceleration module**, and a **camera module** to process transactions in real-time while recording them on a blockchain.
 

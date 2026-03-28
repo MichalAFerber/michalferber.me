@@ -1,13 +1,13 @@
 ---
 layout: post
-title: My Programming Journey Began With BASIC
-description: How a TLDR Web Dev article sparked a trip down memory lane to where my programming journey began—with BASIC.
+title: "My Programming Journey Began With BASIC"
+description: "How a TLDR Web Dev article sparked a trip down memory lane to where my programming journey began—with BASIC."
 tags: [programming, history, basic, tech-industry, memoir]
 comments: true
-thumbnail-img: /assets/img/ca-clipper.png
+thumbnail-img: /assets/img/ca-clipper.webp
 ---
 
-![CA-Clipper Programming Language]({{ "/assets/img/ca-clipper.png" | relative_url | absolute_url }})
+![CA-Clipper Programming Language]({{ "/assets/img/ca-clipper.webp" | relative_url | absolute_url }})
 
 While reading my daily email from [TLDR Web Dev](https://tldr.tech/webdev), one article in particular caught my eye: [10 Most(ly dead) Influential Programming Languages](https://www.hillelwayne.com/post/influential-dead-languages/) by Hillel Wayne. If you’re into the history of technology, this article is a great read—it explores languages that shaped the way we program today, even if they’re no longer in wide use. At number 4 on the list was **BASIC**, and that stopped me in my tracks.
 

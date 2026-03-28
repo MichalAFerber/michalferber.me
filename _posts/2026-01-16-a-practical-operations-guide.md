@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Raspberry Pi 4 Home Server: Operations Guide"
+title: "Managing My Raspberry Pi 4 Home Server: A Practical Operations Guide"
 description: "A comprehensive guide to managing Docker containers, systemd services, and rclone cloud mounts on a Raspberry Pi 4 home server"
 tags: [homelab, raspberry-pi, docker, linux, self-hosting]
 comments: true
-thumbnail-img: /assets/img/raspberry-pi.png
+thumbnail-img: /assets/img/raspberry-pi.webp
 ---
 
-![rsync Logo](/assets/img/raspberry-pi.png)
+![Raspberry Pi Logo]({{ "/assets/img/raspberry-pi.webp" | relative_url | absolute_url }})
 
 Running a Raspberry Pi 4 as a home server has been one of my most rewarding homelab projects. It's powerful enough to handle multiple containerized services, cloud storage mounts, and various automation tasks—all while sipping minimal power compared to traditional server hardware.
 

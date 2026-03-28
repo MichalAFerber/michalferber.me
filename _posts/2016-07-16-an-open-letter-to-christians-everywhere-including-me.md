@@ -1,15 +1,15 @@
 ---
 layout: post
-title: An open letter to Christians everywhere (including me)
-description: From the heart
+title: "An open letter to Christians everywhere (including me)"
+description: "From the heart"
 tags: [jesus, god, holy-spirit, christianity]
 comments: true
-thumbnail-img: /assets/img/letter.jpg
+thumbnail-img: /assets/img/letter.webp
 redirect_from:
   - /blog/an-open-letter-to-christians-everywhere-including-me
 ---
 
-![Letter]({{ "/assets/img/letter.jpg" | relative_url | absolute_url }})
+![An open letter to Christians everywhere]({{ "/assets/img/letter.webp" | relative_url | absolute_url }})
 
 I just watched America’s Got Talent and saw what I hope is a career rebirth of another sinner saved by grace: Nikki Leonti Edgar ([Wikipedia](https://en.wikipedia.org/wiki/Nikki_Leonti)). My heart was broken listening to her story and realizing that I listened to her singing Christian music as a kid than hearing that she was shunned by the Christian community.
 

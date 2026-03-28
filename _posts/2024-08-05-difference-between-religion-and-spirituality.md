@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Difference between religion and spirituality
-description: Or at least my take on it.
+title: "Difference between religion and spirituality"
+description: "Or at least my take on it."
 tags: [religion, theology, god]
 comments: true
-thumbnail-img: /assets/img/religious-faith.jpg
+thumbnail-img: /assets/img/religious-faith.webp
 redirect_from:
   - /blog/difference-between-religion-and-spirituality
 ---
 
-![Religious Faith]({{ "/assets/img/religious-faith.jpg" | relative_url | absolute_url }})
+![Exploring the difference between religion and spirituality]({{ "/assets/img/religious-faith.webp" | relative_url | absolute_url }})
 
 Once a wise man was asked to explain the difference between religion and spirituality
 

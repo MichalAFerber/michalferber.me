@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "DIY Raspberry Pi Pico W Web Server"
-description: Learn how to host a simple web page from your Raspberry Pi Pico W using MicroPython and Wi-Fi.
+description: "Learn how to host a simple web page from your Raspberry Pi Pico W using MicroPython and Wi-Fi."
 tags: [raspberry-pi-pico-w, web-server, micropython, diy, iot, wifi]
 comments: true
-thumbnail-img: /assets/img/raspberry-pi-pico-web-server.jpg
+thumbnail-img: /assets/img/raspberry-pi-pico-web-server.webp
 ---
 
-![Pico Web Server]({{ "/assets/img/raspberry-pi-pico-web-server.jpg" | relative_url | absolute_url }})
+![Pico Web Server]({{ "/assets/img/raspberry-pi-pico-web-server.webp" | relative_url | absolute_url }})
 
 By connecting the **Raspberry Pi Pico W** to your local Wi-Fi network, you can host a small web interface accessible from any device on the same network. While it won’t be as full-featured as a LAMP server on a full Raspberry Pi, it’s perfect for controlling LEDs, reading sensor data, or serving static pages.
 

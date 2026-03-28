@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Vesta Alert Notification System
-description: South Carolina ARC GIS conference
+title: "Vesta Alert Notification System"
+description: "South Carolina ARC GIS conference"
 tags: [emergency-notification, emergency-communications]
 comments: true
-thumbnail-img: /assets/img/sc-arc-gis.jpg
+thumbnail-img: /assets/img/sc-arc-gis.webp
 redirect_from:
   - /blog/vesta-alert-notification-system
   - /2019-10-24-vesta-alert-notification-system
 ---
 
-![South Carolina ARC GIS]({{ "/assets/img/sc-arc-gis.jpg" | relative_url | absolute_url }})
+![South Carolina ARC GIS]({{ "/assets/img/sc-arc-gis.webp" | relative_url | absolute_url }})
 
 I had the opportunity to present and share my thoughts on emergency communication and how GIS can play a role at the South Carolina ARC GIS conference.
 

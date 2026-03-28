@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "It's All About Effective, Efficient Communication"
-description: "That's Just the Bottom Line"
+title: "It’s all about Effective, Efficient Communication"
+description: "That’s Just the Bottom Line"
 tags: [emergency-notification, emergency-communications]
 comments: true
-thumbnail-img: /assets/img/mcleod-health-pavilion-bldg-2.jpg
+thumbnail-img: /assets/img/mcleod-health-pavilion-bldg-2.webp
 ---
 
-![McLeod Health]({{ "/assets/img/mcleod-health-pavilion-bldg-2.jpg" | relative_url | absolute_url }})
+![McLeod Health]({{ "/assets/img/mcleod-health-pavilion-bldg-2.webp" | relative_url | absolute_url }})
 
 Interview I had about communicating with communication technology solutions.
 

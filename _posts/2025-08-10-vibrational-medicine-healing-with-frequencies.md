@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Vibrational Medicine: Healing with Frequencies"
-description: Explore how specific sound frequencies may aid in wellness, paired with a DIY Raspberry Pi tone generator and free downloadable tools.
+description: "Explore how specific sound frequencies may aid in wellness, paired with a DIY Raspberry Pi tone generator and free downloadable tools."
 tags: [vibrational-medicine, healing-frequencies, raspberry-pi, tone-generator, holistic-health, alternative-medicine]
 comments: true
-thumbnail-img: /assets/img/sound-wave.jpg
+thumbnail-img: /assets/img/sound-wave.webp
 ---
 
-![Sound Wave]({{ "/assets/img/sound-wave.jpg" | relative_url | absolute_url }})
+![Sound wave visualization representing vibrational healing frequencies]({{ "/assets/img/sound-wave.webp" | relative_url | absolute_url }})
 
 For centuries, cultures around the world have used sound and vibration for healing — from Tibetan singing bowls and Gregorian chants to tuning forks and drumming circles. Today, vibrational medicine explores how specific sound frequencies may help balance the body, mind, and spirit.
 

@@ -3,10 +3,11 @@ layout: post
 title: "Building a Personal Digital Library with Booklore and OPDS"
 description: "How I set up a self-hosted ebook server with Booklore, Wasabi storage, and OPDS synchronization across macOS and Android devices"
 tags: [homelab, self-hosted, booklore, opds, ebooks, rclone, wasabi]
+comments: true
 thumbnail-img: /assets/img/booklore-screenshot.webp
 ---
 
-![Booklore](/assets/img/booklore-screenshot.webp)
+![Booklore Screenshot]({{ "/assets/img/booklore-screenshot.webp" | relative_url | absolute_url }})
 
 After years of accumulating ebooks scattered across devices, cloud services, and local folders, I finally decided to consolidate everything into a proper self-hosted digital library. The goal was simple: one central catalog that I could access from any device, with automatic syncing and no manual file shuffling.
 

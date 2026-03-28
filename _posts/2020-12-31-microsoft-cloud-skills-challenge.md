@@ -1,15 +1,15 @@
 ---
 layout: post
-title: 30-day Microsoft Cloud Skills Challenge
+title: "30-day Microsoft Cloud Skills Challenge"
 description: "The AZ-104: Microsoft Azure Administrator exam evaluates your skills in administering Azure environments and implementing core solutions on the Azure platform."
 tags: [microsoft, azure, az-104]
 comments: true
-thumbnail-img: /assets/img/csc-hero.jpg
+thumbnail-img: /assets/img/csc-hero.webp
 redirect_from:
   - /blog/microsoft-cloud-skills-challenge
 ---
 
-![CSC Hero]({{ "/assets/img/csc-hero.jpg" | relative_url | absolute_url }})
+![CSC Hero]({{ "/assets/img/csc-hero.webp" | relative_url | absolute_url }})
 
 I completed my first Cloud Skills Challenge. The learning path was AZ-104: Azure Administrator.
 

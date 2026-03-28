@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Custom Linux Welcome Message Guide
-description: This guide walks you through setting up a personalized welcome message that appears when you log into your terminal or connect via SSH.
+title: "Custom Linux Welcome Message Guide"
+description: "This guide walks you through setting up a personalized welcome message that appears when you log into your terminal or connect via SSH."
 tags: [linux, how-to]
 comments: true
-thumbnail-img: /assets/img/fastfetch.png
+thumbnail-img: /assets/img/fastfetch.webp
 redirect_from:
   - /blog/custom-linux-welcome-message
 ---
 
-[![fastfetch-cli]({{ "/assets/img/fastfetch.png" | relative_url | absolute_url }})](https://github.com/fastfetch-cli/fastfetch)
+[![fastfetch-cli]({{ "/assets/img/fastfetch.webp" | relative_url | absolute_url }})](https://github.com/fastfetch-cli/fastfetch)
 
 This guide walks you through setting up a personalized welcome message that appears when you log into your terminal or connect via SSH.
 
@@ -219,6 +219,6 @@ Weather: Lake City: 🌤 +91°F
 You are good to go for Whiskey, Tango, Foxtrot!
 ```
 
-![Screenshot]({{ "/assets/img/welcome-message.png" | relative_url | absolute_url }})
+![Custom Linux terminal welcome message example]({{ "/assets/img/welcome-message.webp" | relative_url | absolute_url }})
 
 Enjoy your custom login experience, Commander. 🛫

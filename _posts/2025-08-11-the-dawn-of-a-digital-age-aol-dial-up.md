@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "The Dawn of a Digital Age: AOL & Dial-Up"
-description: A look back at AOL's dial-up legacy, its rivals, and why 56k internet survived decades past broadband—until its final goodbye in 2025.
+description: "A look back at AOL’s dial-up legacy, its rivals, and why 56k internet survived decades past broadband—until its final goodbye in 2025."
 tags: [aol, dial-up, internet-history, compuserve, earthlink, msn, prodigy, 56k-modem, broadband, dsl, retro-tech, tech-nostalgia]
 comments: true
-thumbnail-img: /assets/img/aol.png
+thumbnail-img: /assets/img/aol.webp
 ---
 
-![AOL Startup Screen]({{ "/assets/img/aol.png" | relative_url | absolute_url }})
+![AOL Startup Screen]({{ "/assets/img/aol.webp" | relative_url | absolute_url }})
 
 Back in the early 1990s, America Online—originally called Quantum Computer Services until 1991—rose to prominence as the gateway to the internet for countless households ([Engadget](https://www.engadget.com/computing/aols-dial-up-internet-still-exists-but-not-for-much-longer-193004233.html?utm_source=chatgpt.com "AOL's dial-up internet still exists, but not for much longer")). With its easy‑to‑use interface, chat rooms, and whimsical “You’ve Got Mail” alerts, AOL introduced the internet to legions of non‑techies.
 

@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Free Tools I Use Regularly
-description: A curated list of free tools and services I use daily, shaped by over 30 years of IT experience and a passion for open-source software.
+title: "Free Tools I Use Regularly"
+description: "A curated list of free tools and services I use daily, shaped by over 30 years of IT experience and a passion for open-source software."
 tags: [free-tools, open-source, foss, productivity, web-tools]
 comments: true
-thumbnail-img: /assets/img/macbook-pro-with-airpods.jpg
+thumbnail-img: /assets/img/macbook-pro-with-airpods.webp
 redirect_from:
   - /blog/free-tools-used-regularly
 ---
 
-![macbook pro]({{ "/assets/img/macbook-pro-with-airpods.jpg" | relative_url | absolute_url }})
+![MacBook Pro workspace with free productivity tools]({{ "/assets/img/macbook-pro-with-airpods.webp" | relative_url | absolute_url }})
 
 Over my 30+ years as an IT network admin, server admin, developer, and consultant, I’ve seen tools come and go.  
 One thing has remained constant: my love for **FOSS (Free and Open-Source Software)**.  

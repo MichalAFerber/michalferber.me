@@ -1,15 +1,15 @@
 ---
 layout: post
-title: How to Set a Static IP on Ubuntu (Netplan) with DNS Failover
-description: Using the Ubuntu (Netplan) to manage your ip address
+title: "How to Set a Static IP on Ubuntu (Netplan) with DNS Failover"
+description: "Using the Ubuntu (Netplan) to manage your ip address"
 tags: [raspberry-pi, linux, how-to, ubuntu, networking, netplan, static-ip, dns]
 comments: true
-thumbnail-img: /assets/img/ubuntu-vector.png
+thumbnail-img: /assets/img/ubuntu-vector.webp
 redirect_from:
   - /blog/ubuntu-static-ip-netplan
 ---
 
-[![Ookla-cli]({{ "/assets/img/ubuntu-vector.png" | relative_url | absolute_url }})](https://documentation.ubuntu.com/server/explanation/networking/about-netplan/)
+[![Ookla-cli]({{ "/assets/img/ubuntu-vector.webp" | relative_url | absolute_url }})](https://documentation.ubuntu.com/server/explanation/networking/about-netplan/)
 
 Modern Ubuntu uses **Netplan** for network configuration. Netplan’s YAML makes it simple to assign a static IP, configure routes, and set reliable DNS servers with failover.
 

@@ -131,6 +131,7 @@
   <meta name="twitter:image" content="{{ img | absolute_url }}">
   {% endif %}
   {% include matomo.html %}
+  {% include json-ld.html %}
   {% if page.comments and site.staticman.repository and site.staticman.branch %}
   <link rel="stylesheet" href="{{ '/assets/css/staticman.css' | relative_url }}">
   {% endif %}

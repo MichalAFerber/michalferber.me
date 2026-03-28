@@ -1,13 +1,13 @@
 ---
 layout: post
-title: My Favorite VS Code Extensions
-description: A comprehensive list of my favorite VS Code extensions grouped by category, with links, descriptions, and examples of how to use them.
+title: "My Favorite VS Code Extensions"
+description: "A comprehensive list of my favorite VS Code extensions grouped by category, with links, descriptions, and examples of how to use them."
 tags: [vs-code, extensions, productivity, development]
 comments: true
-thumbnail-img: /assets/img/visual_studio_code.jpg
+thumbnail-img: /assets/img/visual_studio_code.webp
 ---
 
-![Visual Studio Code]({{ "/assets/img/visual_studio_code.jpg" | relative_url | absolute_url }})
+![Visual Studio Code]({{ "/assets/img/visual_studio_code.webp" | relative_url | absolute_url }})
 
 After 30+ years in IT and spending countless hours inside VS Code, I’ve curated a set of extensions that truly make a difference in productivity, coding quality, and workflow.  
 This post groups them by category, links directly to the Visual Studio Marketplace, and includes a one-liner description and a simple example of how to use each.

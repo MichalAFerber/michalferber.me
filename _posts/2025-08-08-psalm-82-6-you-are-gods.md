@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Psalm 82:6 — I said, You are gods"
-description: A deep dive into Psalm 82:6, exploring the names of God, Christ Consciousness, and what it means to be made in His image.
-tags: [psalm-82:6, theology, bible-study, christ-consciousness, names-of-god, spirituality]
+description: "A deep dive into Psalm 82:6, exploring the names of God, Christ Consciousness, and what it means to be made in His image."
+tags: ["psalm-82:6", theology, bible-study, christ-consciousness, names-of-god, spirituality]
 comments: true
-thumbnail-img: /assets/img/bible-with-cross.jpg
+thumbnail-img: /assets/img/bible-with-cross.webp
 ---
 
-![Bible with cross]({{ "/assets/img/bible-with-cross.jpg" | relative_url | absolute_url }})
+![Open Bible with cross representing Psalm 82:6]({{ "/assets/img/bible-with-cross.webp" | relative_url | absolute_url }})
 
 In Psalm 82:6, we encounter one of the most intriguing and challenging verses in the Bible:
 
@@ -55,7 +55,7 @@ If we are made in the image of God (*Imago Dei*), we carry His creative spark an
 
 ## Diagram — The Names of God
 
-![Names of God Diagram](/assets/img/psalm82-names-of-god-diagram.png)
+![Names of God Diagram](/assets/img/psalm82-names-of-god-diagram.webp)
 
 This diagram illustrates the interconnectedness of God's attributes, and how they reflect in the lives of His people.
 

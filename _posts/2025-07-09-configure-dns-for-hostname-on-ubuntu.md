@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Configure mDNS for Hostname Resolution on Ubuntu
-description: Configure Ubuntu for mDNS to ping/SSH using hostname.local (e.g., yourservername.local). Install Avahi, set hostname, and enable SSH discovery.
+title: "Configure mDNS for Hostname Resolution on Ubuntu"
+description: "Configure Ubuntu for mDNS to ping/SSH using hostname.local (e.g., yourservername.local). Install Avahi, set hostname, and enable SSH discovery."
 tags: [linux, how-to, dns]
 comments: true
-thumbnail-img: /assets/img/systemctl_status_avahi-daemon.png
+thumbnail-img: /assets/img/systemctl_status_avahi-daemon.webp
 redirect_from:
   - /blog/configure-dns-for-hostname-on-ubuntu
 ---
 
-![avahi-daemon]({{ "/assets/img/systemctl_status_avahi-daemon.png" | relative_url | absolute_url }})
+![avahi-daemon]({{ "/assets/img/systemctl_status_avahi-daemon.webp" | relative_url | absolute_url }})
 
 Enable your Ubuntu servers to be accessed via `hostname.local` (e.g., `ping yourservername.local` or `ssh username@yourservername.local`) using Avahi for Zero Configuration Networking (Zeroconf). This is perfect for local networks, like my setup with pi5server, pi4server, and pi3server.
 

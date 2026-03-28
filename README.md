@@ -2,7 +2,7 @@
 
 This is the personal website and blog of Michal Ferber, built with Jekyll and based on the [Beautiful Jekyll](https://beautifuljekyll.com) theme. It hosts my blog posts, professional timeline, skills, and portfolio.
 
-**Latest Updates**: Timeline updated, CSS styling improvements for blog tags, and minified assets regenerated.
+**Repository**: [github.com/MichalAFerber/michalferber.me](https://github.com/MichalAFerber/michalferber.me)
 
 ## Key Features
 
@@ -40,7 +40,7 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/michalferber/michalferber.me.git
+git clone https://github.com/MichalAFerber/michalferber.me.git
 cd michalferber.me
 ```
 
@@ -77,8 +77,14 @@ Open [http://localhost:4000](http://localhost:4000) in your browser.
 ├── _data/                   # Structured data for site components
 │   ├── timeline.yml         # Career timeline data
 │   ├── programming-skills.yml
-│   └── other-skills.yml
+│   ├── other-skills.yml
+│   └── ui-text.yml          # UI text strings
 ├── assets/                  # Static files (Images, CSS, JS)
+├── index.html               # Home page
+├── about.html               # About page
+├── 404.html                 # Custom 404 page
+├── feed.xml                 # RSS feed
+├── manifest.json            # Web app manifest
 ├── _config.yml              # Main site configuration
 ├── CNAME                    # Custom domain configuration for GitHub Pages
 └── beautiful-jekyll-theme.gemspec # Theme dependency specification
@@ -147,7 +153,7 @@ API keys or IDs for services like Google Analytics or Disqus are stored in `_con
 
 This site is configured to be served via GitHub Pages.
 
-1. **Push to Main**: Simply push your changes to the `main` (or `master`) branch.
+1. **Push to Master**: Simply push your changes to the `master` branch.
 2. **Build**: GitHub Actions (or the legacy Pages builder) will detect the Jekyll structure and build the site.
 3. **CNAME**: The `CNAME` file ensures the site is served at `michalferber.me` instead of the default GitHub domain.
 
@@ -202,6 +208,18 @@ bundle update jekyll
 
 ## Writing Principles (For this Project)
 
-- **Posts**: Always include `layout: post` and `tags` in the frontmatter.
-- **Images**: Place images in `assets/img/` and reference them with absolute paths `{{ site.baseurl }}/assets/img/filename.jpg`.
+- **Post Frontmatter**: Every post must use this consistent format:
+
+  ```yaml
+  ---
+  layout: post
+  title: "Your Post Title Here"
+  description: "A brief description of the post"
+  tags: [tag1, tag2, tag3]
+  comments: true
+  thumbnail-img: /assets/img/your-image.jpg
+  ---
+  ```
+
+- **Images**: Place images in `assets/img/` and set the `thumbnail-img` frontmatter field. Reference images in post body with `![alt]({{ "/assets/img/filename.jpg" }})`.
 - **Excerpts**: Use `<!--more-->` in your post content to define where the summary ends on the home page.

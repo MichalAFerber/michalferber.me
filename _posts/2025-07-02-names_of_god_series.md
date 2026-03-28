@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "The Names of God: Jehovah, Yeshua, and Their Meaning"
-description: A study of the names of God in Scripture, their meanings, and how they reveal His character — with a focus on Jehovah and Yeshua.
+description: "A study of the names of God in Scripture, their meanings, and how they reveal His character — with a focus on Jehovah and Yeshua."
 tags: [names-of-god, jehovah, yeshua, theology, bible-study, spirituality]
 comments: true
-thumbnail-img: /assets/img/names-of-god.jpg
+thumbnail-img: /assets/img/names-of-god.webp
 ---
 
-![Names of God]({{ "/assets/img/names-of-god.jpg" | relative_url | absolute_url }})
+![Names of God]({{ "/assets/img/names-of-god.webp" | relative_url | absolute_url }})
 
 Throughout Scripture, God reveals Himself through many names, each carrying deep meaning and insight into His nature. These names are not arbitrary; they are declarations of who He is, what He does, and how He relates to His people.
 
@@ -59,7 +59,7 @@ When we pray using these names, we align our faith with His character. Calling H
 
 ## Diagram — Names of God
 
-![Names of God Diagram](/assets/img/psalm82-names-of-god-diagram.png)
+![Names of God Diagram](/assets/img/psalm82-names-of-god-diagram.webp)
 
 This diagram shows the interconnectedness of the names and attributes of God, and how they reflect His work in the lives of His people.
 

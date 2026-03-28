@@ -1,15 +1,15 @@
 ---
 layout: post
-title: How to Build a Raspberry Pi Camera for Seamless WebRTC Streaming
-description: Using the Pi Zero 2 W and the Camera Module 3
+title: "How to Build a Raspberry Pi Camera for Seamless WebRTC Streaming"
+description: "Using the Pi Zero 2 W and the Camera Module 3"
 tags: [raspberry-pi, linux, how-to]
 comments: true
-thumbnail-img: /assets/img/raspberry-pis.jpg
+thumbnail-img: /assets/img/raspberry-pis.webp
 redirect_from:
   - /blog/how-to-build-a-raspberry-pi-camera-for-seamless-webrtc-streaming
 ---
 
-![Raspberry Pi models]({{ "/assets/img/raspberry-pis.jpg" | relative_url | absolute_url }})
+![Raspberry Pi models]({{ "/assets/img/raspberry-pis.webp" | relative_url | absolute_url }})
 
 ## **How to Build a Raspberry Pi Camera for Seamless WebRTC Streaming**
 
@@ -53,7 +53,7 @@ libcamera-hello --list-cameras
 
 You should see output similar to this:
 
-![image](https://i.ibb.co/Lr9gD1j/libcamera-hello.png)
+![libcamera-hello command output on Raspberry Pi](https://i.ibb.co/Lr9gD1j/libcamera-hello.png)
 
 ## 5. Download and uncompress MediaMTX
 
@@ -121,7 +121,7 @@ sudo systemctl status mediamtx
 
 The status output should look something like this:
 
-![image](https://i.ibb.co/WfwyDXc/service-status.png)
+![WebRTC streaming service status output](https://i.ibb.co/WfwyDXc/service-status.png)
 
 ## 11. If you encounter any errors, check the service log file
 
@@ -137,6 +137,6 @@ http://yourIPaddress:8889/cam
 
 You should see a live video feed.
 
-![image](https://i.ibb.co/NsfJRCs/camera-feed.png)
+![Live Raspberry Pi camera feed via WebRTC](https://i.ibb.co/NsfJRCs/camera-feed.png)
 
 Hope this helps!

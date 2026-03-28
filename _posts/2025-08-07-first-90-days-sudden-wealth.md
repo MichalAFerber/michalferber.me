@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "The First 90 Days of Sudden Wealth: A Humanitarian's Guide"
-description: A 90-day framework for navigating sudden wealth with wisdom, privacy, and stewardship.
+title: "The First 90 Days of Sudden Wealth: A Humanitarian’s Guide"
+description: "A 90-day framework for navigating sudden wealth with wisdom, privacy, and stewardship."
 tags: [sudden-wealth, wealth-management, humanitarian, trust-planning, financial-stewardship]
 comments: true
-thumbnail-img: /assets/img/sudden-wealth.jpg
+thumbnail-img: /assets/img/sudden-wealth.webp
 ---
 
-![Sudden Wealth]({{ "/assets/img/sudden-wealth.jpg" | relative_url | absolute_url }})
+![Guide to managing the first 90 days of sudden wealth]({{ "/assets/img/sudden-wealth.webp" | relative_url | absolute_url }})
 
 ## 💰 The First 90 Days of Sudden Wealth: A Humanitarian’s Guide
 

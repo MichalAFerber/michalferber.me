@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Teeth Reflexology: The Sacred Map in Your Mouth"
-description: Exploring the ancient connections between your teeth, organs, emotions, and ancestral memory through the lens of reflexology.
+description: "Exploring the ancient connections between your teeth, organs, emotions, and ancestral memory through the lens of reflexology."
 tags: [teeth-reflexology, holistic-health, chinese-medicine, dental-health, energy-healing]
 comments: true
-thumbnail-img: /assets/img/teeth-reflexology-guide.jpg
+thumbnail-img: /assets/img/teeth-reflexology-guide.webp
 ---
 
-![Teeth Reflexology Guide](/assets/img/teeth-reflexology-guide.jpg)
+![Teeth Reflexology Guide](/assets/img/teeth-reflexology-guide.webp)
 *By Faith Spina*
 
 Most people brush their teeth each morning without ever realizing they are tending to a sacred map. Each tooth is more than bone and enamel. It is a holographic gateway, a portal to your organs, your emotions, your ancestral imprints.

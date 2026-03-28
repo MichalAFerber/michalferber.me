@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "DIY Raspberry Pi Pico Weather Station"
-description: Learn how to build a Raspberry Pi Pico weather station to measure temperature, humidity, and atmospheric pressure, with real-time display or web output.
+description: "Learn how to build a Raspberry Pi Pico weather station to measure temperature, humidity, and atmospheric pressure, with real-time display or web output."
 tags: [raspberry-pi-pico, weather-station, sensors, micropython, diy, data-visualization]
 comments: true
-thumbnail-img: /assets/img/raspberry-pi-pico-weather-station.jpg
+thumbnail-img: /assets/img/raspberry-pi-pico-weather-station.webp
 ---
 
-![Raspberry Pi HQ Camera]({{ "/assets/img/raspberry-pi-pico-weather-station.jpg" | relative_url | absolute_url }})
+![Raspberry Pi Pico weather station with sensors]({{ "/assets/img/raspberry-pi-pico-weather-station.webp" | relative_url | absolute_url }})
 
 With the Raspberry Pi Pico, you can measure **temperature**, **humidity**, and **atmospheric pressure**, while learning to interface with sensors. This is an excellent beginner-to-intermediate project for exploring sensor integration and data visualization.
 
