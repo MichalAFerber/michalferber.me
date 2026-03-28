@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Bash(sed -n '1,/^---$/{ /^---$/!p; /^---$/p }' \"$f\")",
+      "Bash(sed -n '2,/^---$/p' \"$f\")",
+      "Bash(done)",
+      "Bash(ls /Volumes/Yoda/GitHub/the-michalferber-project/michalferber.me/_posts/2010-01-28*)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(do cp:*)",
+      "Bash(wc -l /Volumes/Yoda/GitHub/the-michalferber-project/michalferber.me/_posts/*.md)",
+      "Bash(grep -l \"twitter:card\\\\|twitter:image\\\\|og:image\" /Volumes/Yoda/GitHub/the-michalferber-project/michalferber.me/_includes/*.html)",
+      "Bash(grep -E \"\\\\.html$|\\\\.md$\")",
+      "Bash(ls *.jpg *.png)",
+      "Bash(command -v sips)",
+      "Bash(command -v magick)",
+      "Bash(ls /Users/michal/Obsidian/Obsidian-Master/blog/posts/*docker-compose*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}
